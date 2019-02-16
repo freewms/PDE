@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c87642b5-c096-44a7-b427-09dc404d65c5">
-  <name>prPhrometeus</name>
+  <name>пэмПрометей</name>
   <synonym>
     <key>ru</key>
     <value>Phrometeus REST API</value>

@@ -593,7 +593,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.prМетрики</types>
+      <types>CatalogObject.пэмМетрики</types>
     </valueType>
     <view>
       <common>true</common>

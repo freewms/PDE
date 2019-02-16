@@ -5,7 +5,7 @@
     <listType typeId="c1d59b7e-e789-424c-bbf1-473ee803204b" valueTypeId="c514846e-a81d-4519-93cc-946e171286a5"/>
     <managerType typeId="e6c2199b-9ff7-4e73-9369-06bf3eaf6750" valueTypeId="6f3b5342-4d1f-45f1-b3d9-bc5b657fdac7"/>
   </producedTypes>
-  <name>prТипыМетрик</name>
+  <name>пэмТипыМетрик</name>
   <synonym>
     <key>ru</key>
     <value>Типы метрик</value>

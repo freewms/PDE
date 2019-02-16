@@ -7,14 +7,14 @@
     <listType typeId="0b0fd388-ca02-4f86-8bf7-df06a4c2d034" valueTypeId="ea79806d-28b0-418d-8209-a9a367907fb7"/>
     <managerType typeId="a74afe92-7c15-458a-915f-269ca16ab8dd" valueTypeId="636f1bc6-3ddf-4fb9-b606-c078bcea7cba"/>
   </producedTypes>
-  <name>prМетрики</name>
+  <name>пэмМетрики</name>
   <synonym>
     <key>ru</key>
     <value>Метрики</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.prМетрики.Attribute.ОписаниеМетрики</inputByString>
+  <inputByString>Catalog.пэмМетрики.Attribute.ОписаниеМетрики</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -120,7 +120,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.prМетрики.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultObjectForm>Catalog.пэмМетрики.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="4c2fad77-c423-40ef-a115-c1cc56a04345">
     <name>ОписаниеМетрики</name>
     <synonym>
@@ -153,7 +153,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>EnumRef.prТипыМетрик</types>
+      <types>EnumRef.пэмТипыМетрик</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
