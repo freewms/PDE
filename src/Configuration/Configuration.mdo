@@ -33,6 +33,8 @@
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.12</compatibilityMode>
   <subsystems>Subsystem.пэмПрометей</subsystems>
+  <commonModules>CommonModule.пэмПолучениеМетрикСервер</commonModules>
+  <commonModules>CommonModule.пэмПолучениеМетрикЭкспортСервер</commonModules>
   <httpServices>HTTPService.пэмПрометей</httpServices>
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>
