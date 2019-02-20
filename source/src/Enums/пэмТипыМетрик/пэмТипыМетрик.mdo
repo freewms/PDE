@@ -1,68 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61b19544-7a98-489d-a014-359ea89fefb7">
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09079720-accf-4bc3-b5c2-be0501db0d15">
   <producedTypes>
-    <refType typeId="627e0bba-cbed-4288-8336-b1125ff37e53" valueTypeId="f776a11f-61ae-434a-b256-246e99c67cae"/>
-    <listType typeId="c1d59b7e-e789-424c-bbf1-473ee803204b" valueTypeId="c514846e-a81d-4519-93cc-946e171286a5"/>
-    <managerType typeId="e6c2199b-9ff7-4e73-9369-06bf3eaf6750" valueTypeId="6f3b5342-4d1f-45f1-b3d9-bc5b657fdac7"/>
+    <refType typeId="e73ce795-ce0e-461e-981d-7a191d5940e5" valueTypeId="dea2ad6c-d5ed-4e82-9eb5-9a957f80e2ed"/>
+    <listType typeId="afcabf04-1ee2-4bd2-aa0d-ca84106a024f" valueTypeId="2eaef113-561c-4fc0-87d7-060ff9ea0361"/>
+    <managerType typeId="58b37062-1f02-40ce-bdbe-9c12e60dc4e3" valueTypeId="419177d4-68e2-4e09-8f1c-2e349f33766f"/>
   </producedTypes>
   <name>пэмТипыМетрик</name>
   <synonym>
     <key>ru</key>
     <value>Типы метрик</value>
   </synonym>
-  <comment></comment>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Order</name>
-    <comment></comment>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Ref</name>
-    <comment></comment>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="7cd02e6c-f1ea-44e6-bcbf-10bfeedf0a83">
+  <enumValues uuid="cd206004-6be3-468a-bb5f-14adcacd8840">
     <name>Counter</name>
     <synonym>
       <key>ru</key>
-      <value>counter</value>
+      <value>Counter</value>
     </synonym>
-    <comment></comment>
   </enumValues>
-  <enumValues uuid="c7567367-808e-4e9e-9f3d-49e1cc03a232">
+  <enumValues uuid="05f49f49-ab78-4bd1-80d9-3c14a4157271">
     <name>Gauge</name>
     <synonym>
       <key>ru</key>
-      <value>gauge</value>
+      <value>Gauge</value>
     </synonym>
-    <comment></comment>
-  </enumValues>
-  <enumValues uuid="04bf53f1-a704-4611-9e2e-3e7f7d6c23f0">
-    <name>Histogram</name>
-    <synonym>
-      <key>ru</key>
-      <value>histogram</value>
-    </synonym>
-    <comment></comment>
-  </enumValues>
-  <enumValues uuid="1322e3ba-76fe-417b-b97f-91dcd0549bfa">
-    <name>Summary</name>
-    <synonym>
-      <key>ru</key>
-      <value>summary</value>
-    </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>
