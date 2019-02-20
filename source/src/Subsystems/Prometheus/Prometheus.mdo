@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d35d134-3d26-46be-a39e-3a45ff13fe96">
+  <name>Prometheus</name>
+  <synonym>
+    <key>ru</key>
+    <value>Prometheus</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.пэмPrometheusLogo</picture>
+  </picture>
+  <content>CommonForm.пэмНастрокаМетрик</content>
+  <content>CommonCommand.пэмНастройки</content>
+  <content>Catalog.пэмМетрики</content>
+</mdclass:Subsystem>

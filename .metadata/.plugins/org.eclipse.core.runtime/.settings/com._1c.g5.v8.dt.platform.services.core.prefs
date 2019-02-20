@@ -1,0 +1,2 @@
+com._1c.g5.v8.dt.platform.services.core.PREF_WEB_SERVERS_XML=<?xml version\="1.0" encoding\="UTF-8"?>\n<model\:WebServer xmi\:version\="2.0" xmlns\:xmi\="http\://www.omg.org/XMI" xmlns\:model\="http\://g5.1c.ru/v8/dt/platform/services/model" name\="\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u0432\u0435\u0431 \u0441\u0435\u0440\u0432\u0435\u0440" typeId\="com._1c.g5.v8.dt.platform.services.core.webServerType.Jetty.9"/>\n
+eclipse.preferences.version=1

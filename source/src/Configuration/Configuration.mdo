@@ -34,6 +34,7 @@
   <subsystems>Subsystem.Prometheus</subsystems>
   <commonPictures>CommonPicture.пэмPrometheusLogo</commonPictures>
   <commonModules>CommonModule.пэмМетрикиСервер</commonModules>
+  <commonModules>CommonModule.пэмМетрикиЭкспортСервер</commonModules>
   <httpServices>HTTPService.пэмPhrometeus</httpServices>
   <commonCommands>CommonCommand.пэмНастройки</commonCommands>
   <constants>Constant.пэмАдресСервераPushgateway</constants>

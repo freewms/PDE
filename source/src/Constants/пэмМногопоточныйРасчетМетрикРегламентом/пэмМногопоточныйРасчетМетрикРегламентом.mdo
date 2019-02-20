@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="267e6f2e-8a60-4ed8-a676-50b36f1dcfb9">
+  <producedTypes>
+    <managerType typeId="5c8aa969-2706-46ce-8a02-6464a7916969" valueTypeId="f311e25d-4f49-4817-80a5-7565fe82249f"/>
+    <valueManagerType typeId="66a269ad-d0b9-48cf-a56b-40adbcff3d62" valueTypeId="f13295fc-f989-4b61-8aee-33f20eab43df"/>
+  </producedTypes>
+  <name>пэмМногопоточныйРасчетМетрикРегламентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Многопоточнвый расчет метрик &quot;регламентом&quot;</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bf756da-4c8b-4b2f-8058-e52aee550bcf">
+  <producedTypes>
+    <managerType typeId="1f1b4062-7fef-49e7-9176-bb3f7f5db824" valueTypeId="5e53c7ef-973b-49a4-8b2f-17932a6f7a6d"/>
+    <valueManagerType typeId="46ce07a7-f3af-418f-80d5-674961d596eb" valueTypeId="cc423146-5a2c-46bc-a73c-a8769abfba61"/>
+  </producedTypes>
+  <name>пэмКоличествоПотоковРасчетаМетрикПоЗапросу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество потоков расчета метрик &quot;по запросу&quot;</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
