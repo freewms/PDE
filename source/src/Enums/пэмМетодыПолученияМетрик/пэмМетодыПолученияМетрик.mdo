@@ -14,24 +14,19 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="12ffcb1d-d35f-46ba-a619-a246d55938a1">
-    <name>ПоЗапросу</name>
+    <name>Pull</name>
     <synonym>
       <key>ru</key>
-      <value>По запросу (Pull)</value>
+      <value>Pull</value>
     </synonym>
-  </enumValues>
-  <enumValues uuid="ba9c2746-f7b5-4e35-a017-3e12622ddf9a">
-    <name>Самостоятельно</name>
-    <synonym>
-      <key>ru</key>
-      <value>Самостоятельно (Push)</value>
-    </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="ad9486cf-1c59-493e-bf74-5dff69e6d8ea">
-    <name>Регламентом</name>
+    <name>Push</name>
     <synonym>
       <key>ru</key>
-      <value>Регламентом (Pull)</value>
+      <value>Push</value>
     </synonym>
+    <comment></comment>
   </enumValues>
 </mdclass:Enum>

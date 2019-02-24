@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="897733a9-cb6d-416d-8785-6cc3404d082b">
-  <name>пэмМетрикиЭкспортСервер</name>
-  <synonym>
-    <key>ru</key>
-    <value>Пэм метрики экспорт сервер</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

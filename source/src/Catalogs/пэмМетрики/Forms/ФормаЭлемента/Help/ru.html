@@ -1,10 +1,14 @@
-<html>
-<head>
-<meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
-<meta name="GENERATOR" content="MSHTML 9.00.8112.16476">
-<base href="v8config://29560a50-aae7-4d53-bac2-bff88f6df35c/mdobject/id4a7af4c1-7ea9-4d1e-a7ce-48dce4157b27/038b5c85-fb1c-4082-9c4c-e69f8928bf3a">
-</head>
-<body>
-
-</body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta></head><body><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><div><h3>Типы метрик:</h3></div>
+<div><h4>Counter</h4></div>
+<div>Совокупная метрика, представляющая собой один монотонно увеличивающийся счетчик, значение которого может только увеличиваться или сбрасываться 
+до нуля при перезапуске. Например, можно использовать счетчик для представления количества выполненных запросов, задач или ошибок.</div>
+<div><h4>Gauge</h4></div>
+<div>Метрика, представляющая одно числовое значение, которое может произвольно изменяться с течением времени как в большую, так и в меньшую сторону. 
+Например, можно использовать для вывода данных APDEX.</div>
+<div><h3>Метод получения метрик:</h3></div>
+<div><h4>По запросу (Pull)</h4></div>
+<div>Метрика расчитывается "на лету" при обращении (scrape) сервера Prometheus. Рекомендуется для легких, быстрых запросов.</div>
+<div><h4>Принудительно (Push)</h4></div>
+<div>Рекомендовано в случае, если есть потребность формировать метрику по результатам выполнения "тяжелых" вычислений. Метрика формируется регламентным заданием.
+Требует установки шлюза Pushgateway на стороне Prometheus</div>
+</body></html>

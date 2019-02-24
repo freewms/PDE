@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Типы метрик</value>
   </synonym>
+  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="cd206004-6be3-468a-bb5f-14adcacd8840">
@@ -18,6 +19,7 @@
       <key>ru</key>
       <value>Counter</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="05f49f49-ab78-4bd1-80d9-3c14a4157271">
     <name>Gauge</name>
@@ -25,5 +27,6 @@
       <key>ru</key>
       <value>Gauge</value>
     </synonym>
+    <comment></comment>
   </enumValues>
 </mdclass:Enum>

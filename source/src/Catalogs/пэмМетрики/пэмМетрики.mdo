@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Метрики</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.пэмМетрики.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.пэмМетрики.StandardAttribute.Description</inputByString>
@@ -26,13 +27,28 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="43a29708-3834-11e9-1991-e4b97ae0aa74">
+      <name>pde_metric_scrape_duration_millisecond</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>pde_metric_scrape_duration_millisecond</value>
+      </code>
+    </items>
+    <items id="7a23a7c0-3836-11e9-ef99-e4b97ae0aa74">
+      <name>pde_last_refresh_second</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>pde_last_refresh_second</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.пэмМетрики.Form.ФормаЭлемента</defaultObjectForm>
@@ -42,9 +58,13 @@
       <key>ru</key>
       <value>Тип метрики</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>EnumRef.пэмТипыМетрик</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Enum.пэмТипыМетрик.EnumValue.Gauge</value>
@@ -56,11 +76,15 @@
       <key>ru</key>
       <value>Метод получения метрики</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>EnumRef.пэмМетодыПолученияМетрик</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.пэмМетодыПолученияМетрик.EnumValue.ПоЗапросу</value>
+      <value>Enum.пэмМетодыПолученияМетрик.EnumValue.Pull</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -71,25 +95,14 @@
       <key>ru</key>
       <value>Активность</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="1e15e164-0134-4c39-a1d6-0aa3c05c6eb6">
-    <name>Описание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Описание</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <fillChecking>ShowError</fillChecking>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -99,11 +112,38 @@
       <key>ru</key>
       <value>Алгоритм</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6857a161-37f3-4316-915f-24032a37b38d">
+    <name>ПериодичностьРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность расчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -113,6 +153,7 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
+    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>

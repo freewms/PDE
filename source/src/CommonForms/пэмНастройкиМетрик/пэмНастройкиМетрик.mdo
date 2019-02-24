@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92ca5ebc-7715-4f1b-a56e-584e0a322d04">
-  <name>пэмНастрокаМетрик</name>
+  <name>пэмНастройкиМетрик</name>
   <synonym>
     <key>ru</key>
-    <value>Настрока метрик</value>
+    <value>Настроки метрик</value>
   </synonym>
+  <comment></comment>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
 </mdclass:CommonForm>

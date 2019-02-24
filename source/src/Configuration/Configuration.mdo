@@ -16,7 +16,18 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>http://freewms.ru</vendor>
+  <version>1.0.0.0</version>
+  <updateCatalogAddress></updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/freewms</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/freewms/PDE</value>
+  </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -29,24 +40,25 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
+    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Prometheus</subsystems>
   <commonPictures>CommonPicture.пэмPrometheusLogo</commonPictures>
+  <roles>Role.пэмНастройкаМетрик</roles>
+  <roles>Role.пэмПолучениеМетрик</roles>
   <commonModules>CommonModule.пэмМетрикиСервер</commonModules>
-  <commonModules>CommonModule.пэмМетрикиЭкспортСервер</commonModules>
-  <httpServices>HTTPService.пэмPhrometeus</httpServices>
+  <httpServices>HTTPService.Prometeus</httpServices>
+  <scheduledJobs>ScheduledJob.пэмВыполнитьРасчетМетрик</scheduledJobs>
   <commonCommands>CommonCommand.пэмНастройки</commonCommands>
   <constants>Constant.пэмАдресСервераPushgateway</constants>
   <constants>Constant.пэмПортСервераPushgateway</constants>
+  <constants>Constant.пэмПутьНаСервереPushgateway</constants>
   <constants>Constant.пэмИспользоватьPushgateway</constants>
-  <constants>Constant.пэмМногопоточныйРасчетМетрикПоЗапросу</constants>
-  <constants>Constant.пэмМногопоточныйРасчетМетрикРегламентом</constants>
-  <constants>Constant.пэмКоличествоПотоковРасчетаМетрикПоЗапросу</constants>
-  <constants>Constant.пэмКоличествоПотоковРасчетаМетрикРегламентом</constants>
-  <commonForms>CommonForm.пэмНастрокаМетрик</commonForms>
+  <constants>Constant.пэмМногопоточныйРасчетМетрик</constants>
+  <commonForms>CommonForm.пэмНастройкиМетрик</commonForms>
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>
   <enums>Enum.пэмМетодыПолученияМетрик</enums>
-  <informationRegisters>InformationRegister.пэмБуферМетрик</informationRegisters>
+  <informationRegisters>InformationRegister.пэмСостояниеМетрик</informationRegisters>
 </mdclass:Configuration>

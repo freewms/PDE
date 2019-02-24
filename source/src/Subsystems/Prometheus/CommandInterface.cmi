@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.пэмАдресСервераPushgateway.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.пэмИспользоватьPushgateway.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.пэмМногопоточныйРасчетМетрик.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.пэмПортСервераPushgateway.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.пэмПутьНаСервереPushgateway.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>
