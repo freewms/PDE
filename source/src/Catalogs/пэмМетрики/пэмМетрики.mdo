@@ -52,6 +52,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.пэмМетрики.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.пэмМетрики.Form.ФормаСписка</defaultListForm>
   <attributes uuid="c7637922-da53-464b-abbc-837ede72e9e5">
     <name>ТипМетрики</name>
     <synonym>
@@ -159,6 +160,15 @@
         <lang>ru</lang>
       </pages>
     </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f800253d-3b38-4bd3-aef4-feebe2552fc4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
