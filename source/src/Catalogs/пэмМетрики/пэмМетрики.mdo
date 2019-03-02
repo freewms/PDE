@@ -136,15 +136,14 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
