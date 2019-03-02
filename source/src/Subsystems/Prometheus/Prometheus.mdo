@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d35d134-3d26-46be-a39e-3a45ff13fe96">
-  <name>Prometheus</name>
-  <synonym>
-    <key>ru</key>
-    <value>Prometheus</value>
-  </synonym>
-  <comment></comment>
-  <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.пэмPrometheusLogo</picture>
-  </picture>
-  <content>CommonForm.пэмНастройкиМетрик</content>
-  <content>CommonCommand.пэмНастройки</content>
-  <content>Catalog.пэмМетрики</content>
-  <content>InformationRegister.пэмСостояниеМетрик</content>
-  <content>Constant.пэмАдресСервераPushgateway</content>
-  <content>Constant.пэмПортСервераPushgateway</content>
-  <content>Constant.пэмПутьНаСервереPushgateway</content>
-  <content>Constant.пэмИспользоватьPushgateway</content>
-  <content>Constant.пэмМногопоточныйРасчетМетрик</content>
-  <content>CommonModule.пэмМетрикиСервер</content>
-  <content>Role.пэмНастройкаМетрик</content>
-  <content>Role.пэмПолучениеМетрик</content>
-  <content>ScheduledJob.пэмВыполнитьРасчетМетрик</content>
-  <content>CommonPicture.пэмPrometheusLogo</content>
-  <content>HTTPService.Prometeus</content>
-  <content>Enum.пэмТипыМетрик</content>
-  <content>Enum.пэмМетодыПолученияМетрик</content>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="3d35d134-3d26-46be-a39e-3a45ff13fe96">
+	<name>Prometheus</name>
+	<synonym>
+		<key>ru</key>
+		<value>Prometheus</value>
+	</synonym>
+	<comment></comment>
+	<includeHelpInContents>true</includeHelpInContents>
+	<includeInCommandInterface>true</includeInCommandInterface>
+	<picture xsi:type="core:PictureRef">
+		<picture>CommonPicture.пэмPrometheusLogo</picture>
+	</picture>
+	<content>CommonForm.пэмНастройкиМетрик</content>
+	<content>CommonCommand.пэмНастройки</content>
+	<content>Catalog.пэмМетрики</content>
+	<content>InformationRegister.пэмСостояниеМетрик</content>
+	<content>Constant.пэмАдресСервераPushgateway</content>
+	<content>Constant.пэмПортСервераPushgateway</content>
+	<content>Constant.пэмПутьНаСервереPushgateway</content>
+	<content>Constant.пэмИспользоватьPushgateway</content>
+	<content>Constant.пэмМногопоточныйРасчетМетрик</content>
+	<content>CommonModule.пэмМетрикиСервер</content>
+	<content>Role.пэмНастройкаМетрик</content>
+	<content>Role.пэмПолучениеМетрик</content>
+	<content>ScheduledJob.пэмВыполнитьРасчетМетрик</content>
+	<content>CommonPicture.пэмPrometheusLogo</content>
+	<content>HTTPService.Prometeus</content>
+	<content>Enum.пэмТипыМетрик</content>
+	<content>Enum.пэмМетодыПолученияМетрик</content>
 </mdclass:Subsystem>

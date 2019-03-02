@@ -1,74 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1941f0f-bbdb-42e8-aaa8-9cc2fc9da35b">
-  <producedTypes>
-    <selectionType typeId="ede9b3b6-ffd7-41cd-b9e4-1a3e48f409e3" valueTypeId="b982d362-5d81-42ea-90d8-cdf9161f675a"/>
-    <listType typeId="777f6896-a9b7-4389-8d4f-858503cd17a7" valueTypeId="859b56c6-cbdb-4b55-8511-37b392bab33a"/>
-    <managerType typeId="e0bbc7b0-ccd1-44ef-878e-b9db08f4ba79" valueTypeId="60afd967-fc0c-4d19-abc4-4ed6e3dbc125"/>
-    <recordSetType typeId="9b9b4e00-8e50-4681-a25f-5de0e2b610c8" valueTypeId="262e298b-6aa4-4809-9efc-d62e4f29fc6c"/>
-    <recordKeyType typeId="21c5fe9c-665d-431b-b939-6f84c8a142dc" valueTypeId="55ddf8ff-6976-4bd5-9565-ca57e7103bfd"/>
-    <recordType typeId="fb6577e3-285c-4fab-96cb-b1262e2b38c2" valueTypeId="8af84876-7950-46ee-ab5a-2d577d36908f"/>
-    <recordManagerType typeId="aaf2a83f-a668-487c-b4b2-ef6f3c98f324" valueTypeId="c649f192-a104-4143-8b00-41cea82034fb"/>
-  </producedTypes>
-  <name>пэмСостояниеМетрик</name>
-  <synonym>
-    <key>ru</key>
-    <value>Состояние метрик</value>
-  </synonym>
-  <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
-  <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="095c835e-6ad8-4805-b11d-0fbdfe4a4ca8">
-    <name>ДатаРасчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата расчета</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-  </resources>
-  <resources uuid="f75f5912-382e-11e9-1991-e4b97ae0aa74">
-    <name>Длительность</name>
-    <synonym>
-      <key>ru</key>
-      <value>Длительность</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-  </resources>
-  <dimensions uuid="49e959d9-aba2-4b32-836a-af91bcf2fa89">
-    <name>Метрика</name>
-    <synonym>
-      <key>ru</key>
-      <value>Метрика</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.пэмМетрики</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="b1941f0f-bbdb-42e8-aaa8-9cc2fc9da35b">
+	<producedTypes>
+		<selectionType typeId="ede9b3b6-ffd7-41cd-b9e4-1a3e48f409e3"
+			valueTypeId="b982d362-5d81-42ea-90d8-cdf9161f675a" />
+		<listType typeId="777f6896-a9b7-4389-8d4f-858503cd17a7"
+			valueTypeId="859b56c6-cbdb-4b55-8511-37b392bab33a" />
+		<managerType typeId="e0bbc7b0-ccd1-44ef-878e-b9db08f4ba79"
+			valueTypeId="60afd967-fc0c-4d19-abc4-4ed6e3dbc125" />
+		<recordSetType typeId="9b9b4e00-8e50-4681-a25f-5de0e2b610c8"
+			valueTypeId="262e298b-6aa4-4809-9efc-d62e4f29fc6c" />
+		<recordKeyType typeId="21c5fe9c-665d-431b-b939-6f84c8a142dc"
+			valueTypeId="55ddf8ff-6976-4bd5-9565-ca57e7103bfd" />
+		<recordType typeId="fb6577e3-285c-4fab-96cb-b1262e2b38c2"
+			valueTypeId="8af84876-7950-46ee-ab5a-2d577d36908f" />
+		<recordManagerType typeId="aaf2a83f-a668-487c-b4b2-ef6f3c98f324"
+			valueTypeId="c649f192-a104-4143-8b00-41cea82034fb" />
+	</producedTypes>
+	<name>пэмСостояниеМетрик</name>
+	<synonym>
+		<key>ru</key>
+		<value>Состояние метрик</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<resources uuid="095c835e-6ad8-4805-b11d-0fbdfe4a4ca8">
+		<name>ДатаРасчета</name>
+		<synonym>
+			<key>ru</key>
+			<value>Дата расчета</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Date</types>
+			<dateQualifiers />
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+	</resources>
+	<resources uuid="f75f5912-382e-11e9-1991-e4b97ae0aa74">
+		<name>Длительность</name>
+		<synonym>
+			<key>ru</key>
+			<value>Длительность</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>10</precision>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<indexing>Index</indexing>
+	</resources>
+	<dimensions uuid="49e959d9-aba2-4b32-836a-af91bcf2fa89">
+		<name>Метрика</name>
+		<synonym>
+			<key>ru</key>
+			<value>Метрика</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>CatalogRef.пэмМетрики</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<dataHistory>Use</dataHistory>
+		<fillValue xsi:type="core:UndefinedValue" />
+		<mainFilter>true</mainFilter>
+	</dimensions>
 </mdclass:InformationRegister>
