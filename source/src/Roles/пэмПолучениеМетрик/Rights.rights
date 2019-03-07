@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
+<Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
 	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
@@ -28,7 +27,7 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.Prometeus.URLTemplate.Polling.Method.Get</name>
+		<name>HTTPService.Prometheus.URLTemplate.Polling.Method.Get</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

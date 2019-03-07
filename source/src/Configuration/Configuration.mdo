@@ -49,7 +49,7 @@
   <roles>Role.пэмНастройкаМетрик</roles>
   <roles>Role.пэмПолучениеМетрик</roles>
   <commonModules>CommonModule.пэмМетрикиСервер</commonModules>
-  <httpServices>HTTPService.Prometeus</httpServices>
+  <httpServices>HTTPService.Prometheus</httpServices>
   <scheduledJobs>ScheduledJob.пэмВыполнитьРасчетМетрик</scheduledJobs>
   <commonCommands>CommonCommand.пэмНастройки</commonCommands>
   <constants>Constant.пэмАдресСервераPushgateway</constants>
