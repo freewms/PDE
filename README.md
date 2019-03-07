@@ -1,5 +1,8 @@
-# Prometheus data exporter
+# Prometheus data exporter (PDE)
 Встраиваемая конфигурация на платформе "1С:Предприятия" для сбора и передачи метрик в систему мониторинга "Prometheus"
 
+## Описание
 Идейная часть описана тут:
 https://infostart.ru/public/811821/
+
+## Настройка
