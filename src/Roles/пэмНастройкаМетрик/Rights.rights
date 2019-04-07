@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
-	<setForNewObjects>true</setForNewObjects>
+	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
 		<name>Constant.пэмАдресСервераPushgateway</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -20,95 +28,95 @@
 	<object>
 		<name>Catalog.пэмМетрики</name>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
+			<name>Insert</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
+			<name>Update</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
+			<name>Delete</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
+			<name>Edit</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
+			<name>InteractiveDelete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Configuration.PDE</name>
 		<right>
-			<name>Administration</name>
-			<value>false</value>
+			<name>ThinClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>DataAdministration</name>
-			<value>false</value>
+			<name>WebClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataBaseConfiguration</name>
-			<value>false</value>
+			<name>MobileClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>ExclusiveMode</name>
-			<value>false</value>
+			<name>SaveUserData</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>ActiveUsers</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EventLog</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ThickClient</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ExternalConnection</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Automation</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>AllFunctionsMode</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>CollaborationSystemInfoBaseRegistration</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ConfigurationExtensionsAdministration</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtDataProcessors</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtReports</name>
-			<value>false</value>
+			<name>Output</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -121,80 +129,57 @@
 	<object>
 		<name>Constant.пэмМногопоточныйРасчетМетрик</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Constant.пэмИспользоватьPushgateway</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>HTTPService.Prometheus.URLTemplate.Polling.Method.Get</name>
 		<right>
-			<name>Use</name>
-			<value>false</value>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Constant.пэмПортСервераPushgateway</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.пэмСостояниеМетрик</name>
 		<right>
-			<name>Update</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -223,6 +208,46 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Prometheus</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.пэмНастройкиМетрик</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.пэмНастройки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.пэмПутьНаСервереPushgateway</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>
