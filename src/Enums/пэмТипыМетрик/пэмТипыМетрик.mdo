@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="09079720-accf-4bc3-b5c2-be0501db0d15">
-	<producedTypes>
-		<refType typeId="e73ce795-ce0e-461e-981d-7a191d5940e5"
-			valueTypeId="dea2ad6c-d5ed-4e82-9eb5-9a957f80e2ed" />
-		<listType typeId="afcabf04-1ee2-4bd2-aa0d-ca84106a024f"
-			valueTypeId="2eaef113-561c-4fc0-87d7-060ff9ea0361" />
-		<managerType typeId="58b37062-1f02-40ce-bdbe-9c12e60dc4e3"
-			valueTypeId="419177d4-68e2-4e09-8f1c-2e349f33766f" />
-	</producedTypes>
-	<name>пэмТипыМетрик</name>
-	<synonym>
-		<key>ru</key>
-		<value>Типы метрик</value>
-	</synonym>
-	<comment></comment>
-	<quickChoice>true</quickChoice>
-	<choiceMode>BothWays</choiceMode>
-	<enumValues uuid="cd206004-6be3-468a-bb5f-14adcacd8840">
-		<name>Counter</name>
-		<synonym>
-			<key>ru</key>
-			<value>Counter</value>
-		</synonym>
-		<comment></comment>
-	</enumValues>
-	<enumValues uuid="05f49f49-ab78-4bd1-80d9-3c14a4157271">
-		<name>Gauge</name>
-		<synonym>
-			<key>ru</key>
-			<value>Gauge</value>
-		</synonym>
-		<comment></comment>
-	</enumValues>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09079720-accf-4bc3-b5c2-be0501db0d15">
+  <producedTypes>
+    <refType typeId="e73ce795-ce0e-461e-981d-7a191d5940e5" valueTypeId="dea2ad6c-d5ed-4e82-9eb5-9a957f80e2ed"/>
+    <listType typeId="afcabf04-1ee2-4bd2-aa0d-ca84106a024f" valueTypeId="2eaef113-561c-4fc0-87d7-060ff9ea0361"/>
+    <managerType typeId="58b37062-1f02-40ce-bdbe-9c12e60dc4e3" valueTypeId="419177d4-68e2-4e09-8f1c-2e349f33766f"/>
+  </producedTypes>
+  <name>пэмТипыМетрик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы метрик</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd206004-6be3-468a-bb5f-14adcacd8840">
+    <name>Counter</name>
+    <synonym>
+      <key>ru</key>
+      <value>counter</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="05f49f49-ab78-4bd1-80d9-3c14a4157271">
+    <name>Gauge</name>
+    <synonym>
+      <key>ru</key>
+      <value>gauge</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
 </mdclass:Enum>
