@@ -57,9 +57,11 @@
   <constants>Constant.пэмПутьНаСервереPushgateway</constants>
   <constants>Constant.пэмИспользоватьPushgateway</constants>
   <constants>Constant.пэмМногопоточныйРасчетМетрик</constants>
+  <constants>Constant.пэмРазделительЦелойИДробнойЧасти</constants>
   <commonForms>CommonForm.пэмНастройкиМетрик</commonForms>
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>
   <enums>Enum.пэмМетодыПолученияМетрик</enums>
+  <enums>Enum.пэмРазделителиЦелойИДробнойЧасти</enums>
   <informationRegisters>InformationRegister.пэмСостояниеМетрик</informationRegisters>
 </mdclass:Configuration>

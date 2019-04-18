@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e9732d6-8ca4-4b74-af2b-9e92ec784e29">
+  <producedTypes>
+    <managerType typeId="905ed76e-142d-4622-94a7-506480b113e8" valueTypeId="3cc55424-0dcd-47c1-982c-3b7a1aad9a4f"/>
+    <valueManagerType typeId="c3a614ee-def0-4e99-bb33-11510a6d0c8c" valueTypeId="c3bfcc0e-b6c0-4e0e-bdd5-8c2f2055c95e"/>
+  </producedTypes>
+  <name>пэмРазделительЦелойИДробнойЧасти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пэм разделитель целой и дробной части</value>
+  </synonym>
+  <type>
+    <types>EnumRef.пэмРазделителиЦелойИДробнойЧасти</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

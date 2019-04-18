@@ -1,529 +1,621 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:form="http://g5.1c.ru/v8/dt/form">
-	<items xsi:type="form:FormGroup">
-		<name>ГруппаPushgateway</name>
-		<id>4</id>
-		<items xsi:type="form:FormField">
-			<name>пэмИспользоватьPushgateway</name>
-			<id>1</id>
-			<title>
-				<key>ru</key>
-				<value>Использовать Pushgateway</value>
-			</title>
-			<visible>true</visible>
-			<enabled>true</enabled>
-			<userVisible>
-				<common>true</common>
-			</userVisible>
-			<dataPath xsi:type="form:MultiLanguageDataPath">
-				<paths xsi:type="form:DataPath">
-					<segments>Константы.пэмИспользоватьPushgateway</segments>
-				</paths>
-			</dataPath>
-			<titleLocation>Right</titleLocation>
-			<handlers>
-				<event>OnChange</event>
-				<name>пэмИспользоватьPushgatewayПриИзменении</name>
-			</handlers>
-			<extendedTooltip>
-				<name>пэмИспользоватьPushgatewayРасширеннаяПодсказка</name>
-				<id>3</id>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<type>Label</type>
-				<autoMaxWidth>true</autoMaxWidth>
-				<autoMaxHeight>true</autoMaxHeight>
-				<extInfo xsi:type="form:LabelDecorationExtInfo">
-					<horizontalAlign>Left</horizontalAlign>
-				</extInfo>
-			</extendedTooltip>
-			<contextMenu>
-				<name>пэмИспользоватьPushgatewayКонтекстноеМеню</name>
-				<id>2</id>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<autoFill>true</autoFill>
-			</contextMenu>
-			<type>CheckBoxField</type>
-			<editMode>Enter</editMode>
-			<showInHeader>true</showInHeader>
-			<headerHorizontalAlign>Left</headerHorizontalAlign>
-			<showInFooter>true</showInFooter>
-			<extInfo xsi:type="form:CheckBoxFieldExtInfo" />
-		</items>
-		<items xsi:type="form:FormGroup">
-			<name>ГруппаPushgatewayСервер</name>
-			<id>30</id>
-			<items xsi:type="form:FormGroup">
-				<name>ГруппаPushgatewayАдресПорт</name>
-				<id>37</id>
-				<items xsi:type="form:FormField">
-					<name>пэмАдресСервераPushgateway</name>
-					<id>9</id>
-					<title>
-						<key>ru</key>
-						<value>Адрес</value>
-					</title>
-					<visible>true</visible>
-					<enabled>true</enabled>
-					<userVisible>
-						<common>true</common>
-					</userVisible>
-					<dataPath xsi:type="form:MultiLanguageDataPath">
-						<paths xsi:type="form:DataPath">
-							<segments>Константы.пэмАдресСервераPushgateway</segments>
-						</paths>
-					</dataPath>
-					<extendedTooltip>
-						<name>пэмАдресСервераPushgatewayРасширеннаяПодсказка</name>
-						<id>11</id>
-						<visible>true</visible>
-						<enabled>true</enabled>
-						<userVisible>
-							<common>true</common>
-						</userVisible>
-						<type>Label</type>
-						<autoMaxWidth>true</autoMaxWidth>
-						<autoMaxHeight>true</autoMaxHeight>
-						<extInfo xsi:type="form:LabelDecorationExtInfo">
-							<horizontalAlign>Left</horizontalAlign>
-						</extInfo>
-					</extendedTooltip>
-					<contextMenu>
-						<name>пэмАдресСервераPushgatewayКонтекстноеМеню</name>
-						<id>10</id>
-						<visible>true</visible>
-						<enabled>true</enabled>
-						<userVisible>
-							<common>true</common>
-						</userVisible>
-						<autoFill>true</autoFill>
-					</contextMenu>
-					<type>InputField</type>
-					<editMode>Enter</editMode>
-					<showInHeader>true</showInHeader>
-					<headerHorizontalAlign>Left</headerHorizontalAlign>
-					<showInFooter>true</showInFooter>
-					<extInfo xsi:type="form:InputFieldExtInfo">
-						<autoMaxWidth>true</autoMaxWidth>
-						<autoMaxHeight>true</autoMaxHeight>
-						<wrap>true</wrap>
-						<chooseType>true</chooseType>
-						<typeDomainEnabled>true</typeDomainEnabled>
-						<textEdit>true</textEdit>
-					</extInfo>
-				</items>
-				<items xsi:type="form:FormField">
-					<name>пэмПортСервераPushgateway</name>
-					<id>6</id>
-					<title>
-						<key>ru</key>
-						<value>Порт</value>
-					</title>
-					<visible>true</visible>
-					<enabled>true</enabled>
-					<userVisible>
-						<common>true</common>
-					</userVisible>
-					<dataPath xsi:type="form:MultiLanguageDataPath">
-						<paths xsi:type="form:DataPath">
-							<segments>Константы.пэмПортСервераPushgateway</segments>
-						</paths>
-					</dataPath>
-					<extendedTooltip>
-						<name>пэмПортСервераPushgatewayРасширеннаяПодсказка</name>
-						<id>8</id>
-						<visible>true</visible>
-						<enabled>true</enabled>
-						<userVisible>
-							<common>true</common>
-						</userVisible>
-						<type>Label</type>
-						<autoMaxWidth>true</autoMaxWidth>
-						<autoMaxHeight>true</autoMaxHeight>
-						<extInfo xsi:type="form:LabelDecorationExtInfo">
-							<horizontalAlign>Left</horizontalAlign>
-						</extInfo>
-					</extendedTooltip>
-					<contextMenu>
-						<name>пэмПортСервераPushgatewayКонтекстноеМеню</name>
-						<id>7</id>
-						<visible>true</visible>
-						<enabled>true</enabled>
-						<userVisible>
-							<common>true</common>
-						</userVisible>
-						<autoFill>true</autoFill>
-					</contextMenu>
-					<type>InputField</type>
-					<editMode>Enter</editMode>
-					<showInHeader>true</showInHeader>
-					<headerHorizontalAlign>Left</headerHorizontalAlign>
-					<showInFooter>true</showInFooter>
-					<extInfo xsi:type="form:InputFieldExtInfo">
-						<autoMaxWidth>true</autoMaxWidth>
-						<autoMaxHeight>true</autoMaxHeight>
-						<wrap>true</wrap>
-						<editFormat>
-							<key>ru</key>
-							<value>ЧН=; ЧГ=0</value>
-						</editFormat>
-						<chooseType>true</chooseType>
-						<typeDomainEnabled>true</typeDomainEnabled>
-						<textEdit>true</textEdit>
-					</extInfo>
-				</items>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<title>
-					<key>ru</key>
-					<value>Группа pushgateway адрес порт</value>
-				</title>
-				<toolTip>
-					<key>ru</key>
-					<value>Группа pushgateway адрес порт</value>
-				</toolTip>
-				<extendedTooltip>
-					<name>ГруппаPushgatewayАдресПортРасширеннаяПодсказка</name>
-					<id>38</id>
-					<visible>true</visible>
-					<enabled>true</enabled>
-					<userVisible>
-						<common>true</common>
-					</userVisible>
-					<type>Label</type>
-					<autoMaxWidth>true</autoMaxWidth>
-					<autoMaxHeight>true</autoMaxHeight>
-					<extInfo xsi:type="form:LabelDecorationExtInfo">
-						<horizontalAlign>Left</horizontalAlign>
-					</extInfo>
-				</extendedTooltip>
-				<type>UsualGroup</type>
-				<extInfo xsi:type="form:UsualGroupExtInfo">
-					<group>HorizontalIfPossible</group>
-					<showLeftMargin>true</showLeftMargin>
-					<united>true</united>
-					<throughAlign>Auto</throughAlign>
-					<currentRowUse>DontUse</currentRowUse>
-				</extInfo>
-			</items>
-			<items xsi:type="form:FormField">
-				<name>пэмПутьНаСервереPushgateway</name>
-				<id>34</id>
-				<title>
-					<key>ru</key>
-					<value>Путь</value>
-				</title>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<dataPath xsi:type="form:MultiLanguageDataPath">
-					<paths xsi:type="form:DataPath">
-						<segments>Константы.пэмПутьНаСервереPushgateway</segments>
-					</paths>
-				</dataPath>
-				<extendedTooltip>
-					<name>пэмПутьНаСервереPushgatewayРасширеннаяПодсказка</name>
-					<id>36</id>
-					<visible>true</visible>
-					<enabled>true</enabled>
-					<userVisible>
-						<common>true</common>
-					</userVisible>
-					<type>Label</type>
-					<autoMaxWidth>true</autoMaxWidth>
-					<autoMaxHeight>true</autoMaxHeight>
-					<extInfo xsi:type="form:LabelDecorationExtInfo">
-						<horizontalAlign>Left</horizontalAlign>
-					</extInfo>
-				</extendedTooltip>
-				<contextMenu>
-					<name>пэмПутьНаСервереPushgatewayКонтекстноеМеню</name>
-					<id>35</id>
-					<visible>true</visible>
-					<enabled>true</enabled>
-					<userVisible>
-						<common>true</common>
-					</userVisible>
-					<autoFill>true</autoFill>
-				</contextMenu>
-				<type>InputField</type>
-				<editMode>Enter</editMode>
-				<showInHeader>true</showInHeader>
-				<headerHorizontalAlign>Left</headerHorizontalAlign>
-				<showInFooter>true</showInFooter>
-				<extInfo xsi:type="form:InputFieldExtInfo">
-					<autoMaxWidth>true</autoMaxWidth>
-					<autoMaxHeight>true</autoMaxHeight>
-					<wrap>true</wrap>
-					<chooseType>true</chooseType>
-					<typeDomainEnabled>true</typeDomainEnabled>
-					<textEdit>true</textEdit>
-				</extInfo>
-			</items>
-			<visible>true</visible>
-			<enabled>true</enabled>
-			<userVisible>
-				<common>true</common>
-			</userVisible>
-			<extendedTooltip>
-				<name>ГруппаPushgatewayСерверРасширеннаяПодсказка</name>
-				<id>31</id>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<type>Label</type>
-				<autoMaxWidth>true</autoMaxWidth>
-				<autoMaxHeight>true</autoMaxHeight>
-				<extInfo xsi:type="form:LabelDecorationExtInfo">
-					<horizontalAlign>Left</horizontalAlign>
-				</extInfo>
-			</extendedTooltip>
-			<type>UsualGroup</type>
-			<extInfo xsi:type="form:UsualGroupExtInfo">
-				<group>Vertical</group>
-				<showLeftMargin>true</showLeftMargin>
-				<united>true</united>
-				<throughAlign>Auto</throughAlign>
-				<currentRowUse>DontUse</currentRowUse>
-			</extInfo>
-		</items>
-		<visible>true</visible>
-		<enabled>true</enabled>
-		<userVisible>
-			<common>true</common>
-		</userVisible>
-		<title>
-			<key>ru</key>
-			<value>Настройки Pushgateway</value>
-		</title>
-		<extendedTooltip>
-			<name>ГруппаPushgatewayРасширеннаяПодсказка</name>
-			<id>5</id>
-			<visible>true</visible>
-			<enabled>true</enabled>
-			<userVisible>
-				<common>true</common>
-			</userVisible>
-			<type>Label</type>
-			<autoMaxWidth>true</autoMaxWidth>
-			<autoMaxHeight>true</autoMaxHeight>
-			<extInfo xsi:type="form:LabelDecorationExtInfo">
-				<horizontalAlign>Left</horizontalAlign>
-			</extInfo>
-		</extendedTooltip>
-		<type>UsualGroup</type>
-		<extInfo xsi:type="form:UsualGroupExtInfo">
-			<group>Vertical</group>
-			<representation>WeakSeparation</representation>
-			<showLeftMargin>true</showLeftMargin>
-			<united>true</united>
-			<showTitle>true</showTitle>
-			<throughAlign>Auto</throughAlign>
-			<currentRowUse>DontUse</currentRowUse>
-		</extInfo>
-	</items>
-	<items xsi:type="form:FormGroup">
-		<name>ГруппаМногопоточность</name>
-		<id>20</id>
-		<items xsi:type="form:FormField">
-			<name>пэмМногопоточныйРасчетМетрик</name>
-			<id>14</id>
-			<title>
-				<key>ru</key>
-				<value>Использовать многопоточный расчет</value>
-			</title>
-			<visible>true</visible>
-			<enabled>true</enabled>
-			<userVisible>
-				<common>true</common>
-			</userVisible>
-			<dataPath xsi:type="form:MultiLanguageDataPath">
-				<paths xsi:type="form:DataPath">
-					<segments>Константы.пэмМногопоточныйРасчетМетрик</segments>
-				</paths>
-			</dataPath>
-			<titleLocation>Right</titleLocation>
-			<extendedTooltip>
-				<name>пэмМногопоточныйРасчетМетрикРасширеннаяПодсказка</name>
-				<id>16</id>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<type>Label</type>
-				<autoMaxWidth>true</autoMaxWidth>
-				<autoMaxHeight>true</autoMaxHeight>
-				<extInfo xsi:type="form:LabelDecorationExtInfo">
-					<horizontalAlign>Left</horizontalAlign>
-				</extInfo>
-			</extendedTooltip>
-			<contextMenu>
-				<name>пэмМногопоточныйРасчетМетрикКонтекстноеМеню</name>
-				<id>15</id>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<autoFill>true</autoFill>
-			</contextMenu>
-			<type>CheckBoxField</type>
-			<editMode>Enter</editMode>
-			<showInHeader>true</showInHeader>
-			<headerHorizontalAlign>Left</headerHorizontalAlign>
-			<showInFooter>true</showInFooter>
-			<extInfo xsi:type="form:CheckBoxFieldExtInfo" />
-		</items>
-		<visible>true</visible>
-		<enabled>true</enabled>
-		<userVisible>
-			<common>true</common>
-		</userVisible>
-		<title>
-			<key>ru</key>
-			<value>Многопоточная обработка</value>
-		</title>
-		<extendedTooltip>
-			<name>ГруппаМногопоточностьРасширеннаяПодсказка</name>
-			<id>21</id>
-			<visible>true</visible>
-			<enabled>true</enabled>
-			<userVisible>
-				<common>true</common>
-			</userVisible>
-			<type>Label</type>
-			<autoMaxWidth>true</autoMaxWidth>
-			<autoMaxHeight>true</autoMaxHeight>
-			<extInfo xsi:type="form:LabelDecorationExtInfo">
-				<horizontalAlign>Left</horizontalAlign>
-			</extInfo>
-		</extendedTooltip>
-		<type>UsualGroup</type>
-		<extInfo xsi:type="form:UsualGroupExtInfo">
-			<group>AlwaysHorizontal</group>
-			<representation>WeakSeparation</representation>
-			<showLeftMargin>true</showLeftMargin>
-			<united>true</united>
-			<showTitle>true</showTitle>
-			<throughAlign>Auto</throughAlign>
-			<currentRowUse>DontUse</currentRowUse>
-		</extInfo>
-	</items>
-	<autoCommandBar>
-		<name>ФормаКоманднаяПанель</name>
-		<id>-1</id>
-		<items xsi:type="form:Button">
-			<name>ФормаВыполнитьПервоначальноеЗаполнение</name>
-			<id>32</id>
-			<title>
-				<key>ru</key>
-				<value>Первоначальное заполнение</value>
-			</title>
-			<visible>true</visible>
-			<enabled>true</enabled>
-			<userVisible>
-				<common>true</common>
-			</userVisible>
-			<extendedTooltip>
-				<name>ФормаВыполнитьПервоначальноеЗаполнениеРасширеннаяПодсказка</name>
-				<id>33</id>
-				<visible>true</visible>
-				<enabled>true</enabled>
-				<userVisible>
-					<common>true</common>
-				</userVisible>
-				<type>Label</type>
-				<autoMaxWidth>true</autoMaxWidth>
-				<autoMaxHeight>true</autoMaxHeight>
-				<extInfo xsi:type="form:LabelDecorationExtInfo">
-					<horizontalAlign>Left</horizontalAlign>
-				</extInfo>
-			</extendedTooltip>
-			<commandName>Form.Command.ВыполнитьПервоначальноеЗаполнение</commandName>
-			<representation>Auto</representation>
-			<autoMaxWidth>true</autoMaxWidth>
-			<autoMaxHeight>true</autoMaxHeight>
-			<placementArea>UserCmds</placementArea>
-			<representationInContextMenu>Auto</representationInContextMenu>
-		</items>
-		<visible>true</visible>
-		<enabled>true</enabled>
-		<userVisible>
-			<common>true</common>
-		</userVisible>
-		<horizontalAlign>Left</horizontalAlign>
-		<autoFill>true</autoFill>
-	</autoCommandBar>
-	<handlers>
-		<event>OnOpen</event>
-		<name>ПриОткрытии</name>
-	</handlers>
-	<autoTitle>true</autoTitle>
-	<autoUrl>true</autoUrl>
-	<group>Vertical</group>
-	<autoFillCheck>true</autoFillCheck>
-	<allowFormCustomize>true</allowFormCustomize>
-	<enabled>true</enabled>
-	<showTitle>true</showTitle>
-	<showCloseButton>true</showCloseButton>
-	<attributes>
-		<name>Константы</name>
-		<title>
-			<key>ru</key>
-			<value>Константы</value>
-		</title>
-		<id>1</id>
-		<valueType>
-			<types>ConstantsSet</types>
-		</valueType>
-		<view>
-			<common>true</common>
-		</view>
-		<edit>
-			<common>true</common>
-		</edit>
-		<main>true</main>
-	</attributes>
-	<formCommands>
-		<name>ВыполнитьПервоначальноеЗаполнение</name>
-		<title>
-			<key>ru</key>
-			<value>Выполнить первоначальное заполнение</value>
-		</title>
-		<id>1</id>
-		<toolTip>
-			<key>ru</key>
-			<value>Выполнить первоначальное заполнение</value>
-		</toolTip>
-		<use>
-			<common>true</common>
-		</use>
-		<action xsi:type="form:FormCommandHandlerContainer">
-			<handler>
-				<name>ВыполнитьПервоначальноеЗаполнение</name>
-			</handler>
-		</action>
-		<currentRowUse>Auto</currentRowUse>
-	</formCommands>
-	<commandInterface>
-		<navigationPanel />
-		<commandBar />
-	</commandInterface>
-	<extInfo xsi:type="form:ConstantsFormExtInfo" />
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаPushgateway</name>
+    <id>4</id>
+    <items xsi:type="form:FormField">
+      <name>пэмИспользоватьPushgateway</name>
+      <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Использовать Pushgateway</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Константы.пэмИспользоватьPushgateway</segments>
+        </paths>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>пэмИспользоватьPushgatewayПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>пэмИспользоватьPushgatewayРасширеннаяПодсказка</name>
+        <id>3</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>пэмИспользоватьPushgatewayКонтекстноеМеню</name>
+        <id>2</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаPushgatewayСервер</name>
+      <id>30</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаPushgatewayАдресПорт</name>
+        <id>37</id>
+        <items xsi:type="form:FormField">
+          <name>пэмАдресСервераPushgateway</name>
+          <id>9</id>
+          <title>
+            <key>ru</key>
+            <value>Адрес</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Константы.пэмАдресСервераPushgateway</segments>
+            </paths>
+          </dataPath>
+          <extendedTooltip>
+            <name>пэмАдресСервераPushgatewayРасширеннаяПодсказка</name>
+            <id>11</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>пэмАдресСервераPushgatewayКонтекстноеМеню</name>
+            <id>10</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>пэмПортСервераPushgateway</name>
+          <id>6</id>
+          <title>
+            <key>ru</key>
+            <value>Порт</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Константы.пэмПортСервераPushgateway</segments>
+            </paths>
+          </dataPath>
+          <extendedTooltip>
+            <name>пэмПортСервераPushgatewayРасширеннаяПодсказка</name>
+            <id>8</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>пэмПортСервераPushgatewayКонтекстноеМеню</name>
+            <id>7</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <editFormat>
+              <key>ru</key>
+              <value>ЧН=; ЧГ=0</value>
+            </editFormat>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа pushgateway адрес порт</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа pushgateway адрес порт</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаPushgatewayАдресПортРасширеннаяПодсказка</name>
+          <id>38</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>пэмПутьНаСервереPushgateway</name>
+        <id>34</id>
+        <title>
+          <key>ru</key>
+          <value>Путь</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Константы.пэмПутьНаСервереPushgateway</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>пэмПутьНаСервереPushgatewayРасширеннаяПодсказка</name>
+          <id>36</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>пэмПутьНаСервереPushgatewayКонтекстноеМеню</name>
+          <id>35</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ГруппаPushgatewayСерверРасширеннаяПодсказка</name>
+        <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки Pushgateway</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаPushgatewayРасширеннаяПодсказка</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаМногопоточность</name>
+    <id>20</id>
+    <items xsi:type="form:FormField">
+      <name>пэмМногопоточныйРасчетМетрик</name>
+      <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Использовать многопоточный расчет</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Константы.пэмМногопоточныйРасчетМетрик</segments>
+        </paths>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <extendedTooltip>
+        <name>пэмМногопоточныйРасчетМетрикРасширеннаяПодсказка</name>
+        <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>пэмМногопоточныйРасчетМетрикКонтекстноеМеню</name>
+        <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Многопоточная обработка</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаМногопоточностьРасширеннаяПодсказка</name>
+      <id>21</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаРегиональныеНастройки</name>
+    <id>39</id>
+    <items xsi:type="form:FormField">
+      <name>пэмРазделительЦелойИДробнойЧасти</name>
+      <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Разделитель целой и дробной части в значениях метрик</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Константы.пэмРазделительЦелойИДробнойЧасти</segments>
+      </dataPath>
+      <titleLocation>Top</titleLocation>
+      <extendedTooltip>
+        <name>пэмРазделительЦелойИДробнойЧастиРасширеннаяПодсказка</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>пэмРазделительЦелойИДробнойЧастиКонтекстноеМеню</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Региональные настройки</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаРегиональныеНастройкиРасширеннаяПодсказка</name>
+      <id>40</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаВыполнитьПервоначальноеЗаполнение</name>
+      <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Первоначальное заполнение</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаВыполнитьПервоначальноеЗаполнениеРасширеннаяПодсказка</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВыполнитьПервоначальноеЗаполнение</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Константы</name>
+    <title>
+      <key>ru</key>
+      <value>Константы</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>ConstantsSet</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <formCommands>
+    <name>ВыполнитьПервоначальноеЗаполнение</name>
+    <title>
+      <key>ru</key>
+      <value>Выполнить первоначальное заполнение</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнить первоначальное заполнение</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыполнитьПервоначальноеЗаполнение</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ConstantsFormExtInfo"/>
 </form:Form>
