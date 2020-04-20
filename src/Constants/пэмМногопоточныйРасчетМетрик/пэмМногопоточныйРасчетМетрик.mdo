@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="67251778-9a60-46cf-9217-377e621a014a">
-	<producedTypes>
-		<managerType typeId="86dd2af3-d55b-4b72-807c-2d9257c66ffb"
-			valueTypeId="2dfdb3d1-432b-4527-8ee4-54bca1b48c90" />
-		<valueManagerType typeId="47a00267-fc50-43c1-9878-1fdf6a909467"
-			valueTypeId="d04562fb-01c6-4bcc-ab9e-6517adfe9b9b" />
-	</producedTypes>
-	<name>пэмМногопоточныйРасчетМетрик</name>
-	<synonym>
-		<key>ru</key>
-		<value>Многопоточный расчет для метрик &quot;по запросу&quot;</value>
-	</synonym>
-	<comment></comment>
-	<type>
-		<types>Boolean</types>
-	</type>
-	<useStandardCommands>true</useStandardCommands>
-	<mask></mask>
-	<minValue xsi:type="core:UndefinedValue" />
-	<maxValue xsi:type="core:UndefinedValue" />
-	<dataLockControlMode>Managed</dataLockControlMode>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67251778-9a60-46cf-9217-377e621a014a">
+  <producedTypes>
+    <managerType typeId="86dd2af3-d55b-4b72-807c-2d9257c66ffb" valueTypeId="2dfdb3d1-432b-4527-8ee4-54bca1b48c90"/>
+    <valueManagerType typeId="47a00267-fc50-43c1-9878-1fdf6a909467" valueTypeId="d04562fb-01c6-4bcc-ab9e-6517adfe9b9b"/>
+    <valueKeyType typeId="baa3c070-731b-47ef-b506-eae8330dae84" valueTypeId="87ada93b-5170-4e7a-a60d-c3a080c03b85"/>
+  </producedTypes>
+  <name>пэмМногопоточныйРасчетМетрик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Многопоточный расчет для метрик &quot;по запросу&quot;</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

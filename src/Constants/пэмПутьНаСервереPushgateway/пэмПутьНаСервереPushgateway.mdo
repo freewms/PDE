@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="aca4b13e-3850-11e9-9195-e4b97ae0aa74">
-	<producedTypes>
-		<managerType typeId="aca4b12a-3850-11e9-9195-e4b97ae0aa74"
-			valueTypeId="aca4b134-3850-11e9-9195-e4b97ae0aa74" />
-		<valueManagerType typeId="aca4b135-3850-11e9-9195-e4b97ae0aa74"
-			valueTypeId="aca4b136-3850-11e9-9195-e4b97ae0aa74" />
-	</producedTypes>
-	<name>пэмПутьНаСервереPushgateway</name>
-	<synonym>
-		<key>ru</key>
-		<value>Пэм путь на сервере pushgateway</value>
-	</synonym>
-	<comment></comment>
-	<type>
-		<types>String</types>
-		<stringQualifiers />
-	</type>
-	<useStandardCommands>true</useStandardCommands>
-	<mask></mask>
-	<minValue xsi:type="core:UndefinedValue" />
-	<maxValue xsi:type="core:UndefinedValue" />
-	<dataLockControlMode>Managed</dataLockControlMode>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca4b13e-3850-11e9-9195-e4b97ae0aa74">
+  <producedTypes>
+    <managerType typeId="aca4b12a-3850-11e9-9195-e4b97ae0aa74" valueTypeId="aca4b134-3850-11e9-9195-e4b97ae0aa74"/>
+    <valueManagerType typeId="aca4b135-3850-11e9-9195-e4b97ae0aa74" valueTypeId="aca4b136-3850-11e9-9195-e4b97ae0aa74"/>
+    <valueKeyType typeId="e4eb363f-8067-4050-bd4d-cd9dd7f5f42d" valueTypeId="64f67685-ac52-45d9-938f-04293ced4f69"/>
+  </producedTypes>
+  <name>пэмПутьНаСервереPushgateway</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пэм путь на сервере pushgateway</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

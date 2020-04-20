@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="6c92a15b-be42-4a2d-b99c-d5ac7e7228b7">
-	<producedTypes>
-		<managerType typeId="927b2557-919f-47d6-b134-e73f443c9624"
-			valueTypeId="556b6735-06ce-4349-b2f2-6178ad26ef32" />
-		<valueManagerType typeId="65526979-2373-4172-9bcb-20bcae11d4f3"
-			valueTypeId="efce8c22-88c5-45fc-b249-9d58467dd006" />
-	</producedTypes>
-	<name>пэмИспользоватьPushgateway</name>
-	<synonym>
-		<key>ru</key>
-		<value>Использовать pushgateway</value>
-	</synonym>
-	<comment></comment>
-	<type>
-		<types>Boolean</types>
-	</type>
-	<useStandardCommands>true</useStandardCommands>
-	<mask></mask>
-	<minValue xsi:type="core:UndefinedValue" />
-	<maxValue xsi:type="core:UndefinedValue" />
-	<dataLockControlMode>Managed</dataLockControlMode>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c92a15b-be42-4a2d-b99c-d5ac7e7228b7">
+  <producedTypes>
+    <managerType typeId="927b2557-919f-47d6-b134-e73f443c9624" valueTypeId="556b6735-06ce-4349-b2f2-6178ad26ef32"/>
+    <valueManagerType typeId="65526979-2373-4172-9bcb-20bcae11d4f3" valueTypeId="efce8c22-88c5-45fc-b249-9d58467dd006"/>
+    <valueKeyType typeId="a5ae532f-10c8-4cdc-8e4c-6eaa677ccb5d" valueTypeId="111a48dd-3ede-4d6e-813b-cd62ae0dae93"/>
+  </producedTypes>
+  <name>пэмИспользоватьPushgateway</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать pushgateway</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

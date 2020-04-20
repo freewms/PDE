@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="9b7064fe-df5d-480c-967f-380ec045aa22">
-	<producedTypes>
-		<managerType typeId="a1ac6fbe-8ab2-48c6-a2eb-5b5d9abb5535"
-			valueTypeId="81df94f4-5a73-43a4-8c04-b3fa530fddce" />
-		<valueManagerType typeId="e8a757f9-28fa-49af-b576-6913055ee7bd"
-			valueTypeId="d81f2fea-dff7-4ed5-9e42-03290e98f929" />
-	</producedTypes>
-	<name>пэмПортСервераPushgateway</name>
-	<synonym>
-		<key>ru</key>
-		<value>Порт сервера pushgateway</value>
-	</synonym>
-	<comment></comment>
-	<type>
-		<types>Number</types>
-		<numberQualifiers>
-			<precision>5</precision>
-			<nonNegative>true</nonNegative>
-		</numberQualifiers>
-	</type>
-	<useStandardCommands>true</useStandardCommands>
-	<mask></mask>
-	<minValue xsi:type="core:UndefinedValue" />
-	<maxValue xsi:type="core:UndefinedValue" />
-	<dataLockControlMode>Managed</dataLockControlMode>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b7064fe-df5d-480c-967f-380ec045aa22">
+  <producedTypes>
+    <managerType typeId="a1ac6fbe-8ab2-48c6-a2eb-5b5d9abb5535" valueTypeId="81df94f4-5a73-43a4-8c04-b3fa530fddce"/>
+    <valueManagerType typeId="e8a757f9-28fa-49af-b576-6913055ee7bd" valueTypeId="d81f2fea-dff7-4ed5-9e42-03290e98f929"/>
+    <valueKeyType typeId="d753b518-edf8-4b4c-8ab2-90b6bf967cdf" valueTypeId="8993c49e-52ff-478a-a0b0-4a82ca7cd293"/>
+  </producedTypes>
+  <name>пэмПортСервераPushgateway</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт сервера pushgateway</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

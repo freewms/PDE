@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="041f540f-f50d-41c6-afef-4ff4513fa412">
-	<producedTypes>
-		<managerType typeId="29ccb0c0-03ed-4e30-a896-e29ebd5fb4d0"
-			valueTypeId="d70ac6c8-70bb-4c05-8b52-efc984fb711c" />
-		<valueManagerType typeId="9f1b53e0-92a4-444d-b78e-a3b5701c63e7"
-			valueTypeId="aa1efa37-4110-4a58-b0fe-bf24bc985f67" />
-	</producedTypes>
-	<name>пэмАдресСервераPushgateway</name>
-	<synonym>
-		<key>ru</key>
-		<value>Адрес сервера pushgateway</value>
-	</synonym>
-	<comment></comment>
-	<type>
-		<types>String</types>
-		<stringQualifiers />
-	</type>
-	<useStandardCommands>true</useStandardCommands>
-	<mask></mask>
-	<minValue xsi:type="core:UndefinedValue" />
-	<maxValue xsi:type="core:UndefinedValue" />
-	<dataLockControlMode>Managed</dataLockControlMode>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="041f540f-f50d-41c6-afef-4ff4513fa412">
+  <producedTypes>
+    <managerType typeId="29ccb0c0-03ed-4e30-a896-e29ebd5fb4d0" valueTypeId="d70ac6c8-70bb-4c05-8b52-efc984fb711c"/>
+    <valueManagerType typeId="9f1b53e0-92a4-444d-b78e-a3b5701c63e7" valueTypeId="aa1efa37-4110-4a58-b0fe-bf24bc985f67"/>
+    <valueKeyType typeId="0204f760-06a7-40bc-892e-81e6347abfe5" valueTypeId="b428f2ed-e287-46fd-88a7-6e2d817f2b4f"/>
+  </producedTypes>
+  <name>пэмАдресСервераPushgateway</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервера pushgateway</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

@@ -13,12 +13,12 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a0574a35-e82f-4ae2-91b3-c46d04e7e09f"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="abfbe3fc-eb3e-481e-8382-e07493de2da9"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6ca94286-0924-4968-a868-c8860bd11b17"/>
-  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://freewms.ru</vendor>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <updateCatalogAddress></updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <vendorInformationAddress>
@@ -34,7 +34,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.12</compatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="cfea9f0a-0bfe-4bcc-815a-4faf581f4ea6">
     <name>Русский</name>
     <synonym>
@@ -43,6 +43,14 @@
     </synonym>
     <comment></comment>
     <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="6708e0c4-c732-4f46-91cb-c6860cb0355b">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
   </languages>
   <subsystems>Subsystem.Prometheus</subsystems>
   <commonPictures>CommonPicture.пэмPrometheusLogo</commonPictures>
