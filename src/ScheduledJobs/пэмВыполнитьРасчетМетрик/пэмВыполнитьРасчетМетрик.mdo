@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="64783648-384f-11e9-9195-e4b97ae0aa74">
-	<name>пэмВыполнитьРасчетМетрик</name>
-	<synonym>
-		<key>ru</key>
-		<value>Выполнить расчет метрик Prometheus</value>
-	</synonym>
-	<comment></comment>
-	<methodName>CommonModule.пэмМетрикиСервер.СформироватьМетрикиРегламентнымЗаданием</methodName>
-	<description>Выполнить расчет метрик Prometheus</description>
-	<key></key>
-	<use>true</use>
-	<predefined>true</predefined>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64783648-384f-11e9-9195-e4b97ae0aa74">
+  <name>пэмВыполнитьРасчетМетрик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить расчет метрик Prometheus</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.пэмМетрикиСервер.СформироватьМетрикиРегламентнымЗаданием</methodName>
+  <description>Выполнить расчет метрик Prometheus</description>
+  <key>пэмМетрикиСерверСформироватьМетрикиРегламентнымЗаданием</key>
+  <predefined>true</predefined>
 </mdclass:ScheduledJob>

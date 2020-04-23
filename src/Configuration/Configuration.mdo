@@ -17,7 +17,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>http://freewms.ru</vendor>
+  <vendor>http://defbyte.ru</vendor>
   <version>1.2.0</version>
   <updateCatalogAddress></updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -44,14 +44,6 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
-  <languages uuid="6708e0c4-c732-4f46-91cb-c6860cb0355b">
-    <name>English</name>
-    <synonym>
-      <key>en</key>
-      <value>English</value>
-    </synonym>
-    <languageCode>en</languageCode>
-  </languages>
   <subsystems>Subsystem.Prometheus</subsystems>
   <commonPictures>CommonPicture.пэмPrometheusLogo</commonPictures>
   <roles>Role.пэмНастройкаМетрик</roles>
@@ -69,5 +61,6 @@
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>
   <enums>Enum.пэмМетодыПолученияМетрик</enums>
+  <reports>Report.СостояниеМетрик</reports>
   <informationRegisters>InformationRegister.пэмСостояниеМетрик</informationRegisters>
 </mdclass:Configuration>

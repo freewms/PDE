@@ -21,5 +21,9 @@
       <command>Constant.пэмПутьНаСервереPushgateway.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.пэмСостояниеМетрик.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
 </cmi:CommandInterface>

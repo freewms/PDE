@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="7a00ab2b-13e7-44df-84b4-55f0ea3335a0">
-	<producedTypes>
-		<refType typeId="f0c6939a-c7d7-44bb-a3ae-1b28ea60e73e"
-			valueTypeId="9a0bba09-3e93-48d1-b067-50323a6a9bf7" />
-		<listType typeId="ad2ae1e8-c17e-48a2-9807-e8348089143d"
-			valueTypeId="73ab87e9-3fd4-41bb-9843-76ca25ef326e" />
-		<managerType typeId="adafd933-83c1-464b-9552-e9eebc75496d"
-			valueTypeId="22adb645-b845-451a-b3f8-0d7fc027814d" />
-	</producedTypes>
-	<name>пэмМетодыПолученияМетрик</name>
-	<synonym>
-		<key>ru</key>
-		<value>Методы получения метрик</value>
-	</synonym>
-	<comment></comment>
-	<quickChoice>true</quickChoice>
-	<choiceMode>BothWays</choiceMode>
-	<enumValues uuid="12ffcb1d-d35f-46ba-a619-a246d55938a1">
-		<name>Pull</name>
-		<synonym>
-			<key>ru</key>
-			<value>Pull</value>
-		</synonym>
-		<comment></comment>
-	</enumValues>
-	<enumValues uuid="ad9486cf-1c59-493e-bf74-5dff69e6d8ea">
-		<name>Push</name>
-		<synonym>
-			<key>ru</key>
-			<value>Push</value>
-		</synonym>
-		<comment></comment>
-	</enumValues>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a00ab2b-13e7-44df-84b4-55f0ea3335a0">
+  <producedTypes>
+    <refType typeId="f0c6939a-c7d7-44bb-a3ae-1b28ea60e73e" valueTypeId="9a0bba09-3e93-48d1-b067-50323a6a9bf7"/>
+    <listType typeId="ad2ae1e8-c17e-48a2-9807-e8348089143d" valueTypeId="73ab87e9-3fd4-41bb-9843-76ca25ef326e"/>
+    <managerType typeId="adafd933-83c1-464b-9552-e9eebc75496d" valueTypeId="22adb645-b845-451a-b3f8-0d7fc027814d"/>
+  </producedTypes>
+  <name>пэмМетодыПолученияМетрик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы получения метрик</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12ffcb1d-d35f-46ba-a619-a246d55938a1">
+    <name>Pull</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pull</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ad9486cf-1c59-493e-bf74-5dff69e6d8ea">
+    <name>Push</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
 </mdclass:Enum>

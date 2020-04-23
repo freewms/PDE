@@ -1,181 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="1b1f2ced-205f-4346-91ea-099d39d69773">
-	<producedTypes>
-		<objectType typeId="e20cbeec-4687-41e4-b3d1-afde6787db55"
-			valueTypeId="216ee8e2-4f16-4d60-8052-07fef6df90fa" />
-		<refType typeId="2649179f-5c41-42dd-8f67-129ffff8b0ec"
-			valueTypeId="0197dc92-f6fb-49cd-bd34-b25d06fa2900" />
-		<selectionType typeId="46a01647-bb30-4215-bca1-1d95f1560c2a"
-			valueTypeId="8d9ff5e4-98b5-40bf-abd5-728beac7e3b9" />
-		<listType typeId="ad0f28be-3ccc-416b-8967-878a455f40ee"
-			valueTypeId="e7d8cb38-6986-4b83-bf85-c133de0b3669" />
-		<managerType typeId="883a00d6-f326-44d4-b420-949f9b973c56"
-			valueTypeId="4e71a282-7f07-4d52-825e-b1ead27a5e37" />
-	</producedTypes>
-	<name>пэмМетрики</name>
-	<synonym>
-		<key>ru</key>
-		<value>Метрики</value>
-	</synonym>
-	<comment></comment>
-	<useStandardCommands>true</useStandardCommands>
-	<inputByString>Catalog.пэмМетрики.StandardAttribute.Code</inputByString>
-	<inputByString>Catalog.пэмМетрики.StandardAttribute.Description</inputByString>
-	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-	<createOnInput>Use</createOnInput>
-	<help>
-		<pages>
-			<lang>ru</lang>
-		</pages>
-	</help>
-	<dataLockControlMode>Managed</dataLockControlMode>
-	<fullTextSearch>Use</fullTextSearch>
-	<levelCount>2</levelCount>
-	<foldersOnTop>true</foldersOnTop>
-	<codeLength>50</codeLength>
-	<descriptionLength>100</descriptionLength>
-	<codeType>String</codeType>
-	<codeAllowedLength>Variable</codeAllowedLength>
-	<checkUnique>true</checkUnique>
-	<defaultPresentation>AsDescription</defaultPresentation>
-	<predefined>
-		<items id="43a29708-3834-11e9-1991-e4b97ae0aa74">
-			<name>pde_metric_scrape_duration_millisecond</name>
-			<description></description>
-			<code xsi:type="core:StringValue">
-				<value>pde_metric_scrape_duration_millisecond</value>
-			</code>
-		</items>
-		<items id="7a23a7c0-3836-11e9-ef99-e4b97ae0aa74">
-			<name>pde_last_refresh_second</name>
-			<description></description>
-			<code xsi:type="core:StringValue">
-				<value>pde_last_refresh_second</value>
-			</code>
-		</items>
-	</predefined>
-	<editType>InDialog</editType>
-	<choiceMode>BothWays</choiceMode>
-	<defaultObjectForm>Catalog.пэмМетрики.Form.ФормаЭлемента</defaultObjectForm>
-	<defaultListForm>Catalog.пэмМетрики.Form.ФормаСписка</defaultListForm>
-	<attributes uuid="c7637922-da53-464b-abbc-837ede72e9e5">
-		<name>ТипМетрики</name>
-		<synonym>
-			<key>ru</key>
-			<value>Тип метрики</value>
-		</synonym>
-		<comment></comment>
-		<type>
-			<types>EnumRef.пэмТипыМетрик</types>
-		</type>
-		<mask></mask>
-		<minValue xsi:type="core:UndefinedValue" />
-		<maxValue xsi:type="core:UndefinedValue" />
-		<fillChecking>ShowError</fillChecking>
-		<fillValue xsi:type="core:ReferenceValue">
-			<value>Enum.пэмТипыМетрик.EnumValue.Gauge</value>
-		</fillValue>
-	</attributes>
-	<attributes uuid="bf233752-b7a6-4417-a0a6-0a9174f2aefd">
-		<name>МетодПолученияМетрики</name>
-		<synonym>
-			<key>ru</key>
-			<value>Метод получения метрики</value>
-		</synonym>
-		<comment></comment>
-		<type>
-			<types>EnumRef.пэмМетодыПолученияМетрик</types>
-		</type>
-		<mask></mask>
-		<minValue xsi:type="core:UndefinedValue" />
-		<maxValue xsi:type="core:UndefinedValue" />
-		<fillValue xsi:type="core:ReferenceValue">
-			<value>Enum.пэмМетодыПолученияМетрик.EnumValue.Pull</value>
-		</fillValue>
-		<fullTextSearch>Use</fullTextSearch>
-		<dataHistory>Use</dataHistory>
-	</attributes>
-	<attributes uuid="bfac69a4-6099-45a7-b292-0915a1ad30e3">
-		<name>Активность</name>
-		<synonym>
-			<key>ru</key>
-			<value>Активность</value>
-		</synonym>
-		<comment></comment>
-		<type>
-			<types>Boolean</types>
-		</type>
-		<mask></mask>
-		<minValue xsi:type="core:UndefinedValue" />
-		<maxValue xsi:type="core:UndefinedValue" />
-		<fillValue xsi:type="core:UndefinedValue" />
-		<fullTextSearch>Use</fullTextSearch>
-		<dataHistory>Use</dataHistory>
-	</attributes>
-	<attributes uuid="b2fffa48-8744-4fed-8e9b-ef525e2e29e0">
-		<name>Алгоритм</name>
-		<synonym>
-			<key>ru</key>
-			<value>Алгоритм</value>
-		</synonym>
-		<comment></comment>
-		<type>
-			<types>String</types>
-			<stringQualifiers />
-		</type>
-		<mask></mask>
-		<minValue xsi:type="core:UndefinedValue" />
-		<maxValue xsi:type="core:UndefinedValue" />
-		<fillChecking>ShowError</fillChecking>
-		<fillValue xsi:type="core:StringValue">
-			<value></value>
-		</fillValue>
-		<fullTextSearch>Use</fullTextSearch>
-		<dataHistory>Use</dataHistory>
-	</attributes>
-	<attributes uuid="6857a161-37f3-4316-915f-24032a37b38d">
-		<name>ПериодичностьРасчета</name>
-		<synonym>
-			<key>ru</key>
-			<value>Периодичность расчета</value>
-		</synonym>
-		<comment></comment>
-		<type>
-			<types>Number</types>
-			<numberQualifiers>
-				<precision>4</precision>
-			</numberQualifiers>
-		</type>
-		<mask></mask>
-		<minValue xsi:type="core:UndefinedValue" />
-		<maxValue xsi:type="core:UndefinedValue" />
-		<fullTextSearch>Use</fullTextSearch>
-		<dataHistory>Use</dataHistory>
-	</attributes>
-	<forms uuid="4a7af4c1-7ea9-4d1e-a7ce-48dce4157b27">
-		<name>ФормаЭлемента</name>
-		<synonym>
-			<key>ru</key>
-			<value>Форма элемента</value>
-		</synonym>
-		<comment></comment>
-		<help>
-			<pages>
-				<lang>ru</lang>
-			</pages>
-		</help>
-		<usePurposes>PersonalComputer</usePurposes>
-		<usePurposes>MobileDevice</usePurposes>
-	</forms>
-	<forms uuid="f800253d-3b38-4bd3-aef4-feebe2552fc4">
-		<name>ФормаСписка</name>
-		<synonym>
-			<key>ru</key>
-			<value>Форма списка</value>
-		</synonym>
-		<usePurposes>PersonalComputer</usePurposes>
-		<usePurposes>MobileDevice</usePurposes>
-	</forms>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b1f2ced-205f-4346-91ea-099d39d69773">
+  <producedTypes>
+    <objectType typeId="e20cbeec-4687-41e4-b3d1-afde6787db55" valueTypeId="216ee8e2-4f16-4d60-8052-07fef6df90fa"/>
+    <refType typeId="2649179f-5c41-42dd-8f67-129ffff8b0ec" valueTypeId="0197dc92-f6fb-49cd-bd34-b25d06fa2900"/>
+    <selectionType typeId="46a01647-bb30-4215-bca1-1d95f1560c2a" valueTypeId="8d9ff5e4-98b5-40bf-abd5-728beac7e3b9"/>
+    <listType typeId="ad0f28be-3ccc-416b-8967-878a455f40ee" valueTypeId="e7d8cb38-6986-4b83-bf85-c133de0b3669"/>
+    <managerType typeId="883a00d6-f326-44d4-b420-949f9b973c56" valueTypeId="4e71a282-7f07-4d52-825e-b1ead27a5e37"/>
+  </producedTypes>
+  <name>пэмМетрики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метрики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.пэмМетрики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.пэмМетрики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="43a29708-3834-11e9-1991-e4b97ae0aa74">
+      <name>pde_metric_scrape_duration_millisecond</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>pde_metric_scrape_duration_millisecond</value>
+      </code>
+    </items>
+    <items id="7a23a7c0-3836-11e9-ef99-e4b97ae0aa74">
+      <name>pde_last_refresh_second</name>
+      <description></description>
+      <code xsi:type="core:StringValue">
+        <value>pde_last_refresh_second</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.пэмМетрики.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.пэмМетрики.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c7637922-da53-464b-abbc-837ede72e9e5">
+    <name>ТипМетрики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип метрики</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пэмТипыМетрик</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.пэмТипыМетрик.EnumValue.Gauge</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="bf233752-b7a6-4417-a0a6-0a9174f2aefd">
+    <name>УдалитьМетодПолученияМетрики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить метод получения метрики</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.пэмМетодыПолученияМетрик</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.пэмМетодыПолученияМетрик.EnumValue.Pull</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfac69a4-6099-45a7-b292-0915a1ad30e3">
+    <name>Активность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2fffa48-8744-4fed-8e9b-ef525e2e29e0">
+    <name>Алгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6857a161-37f3-4316-915f-24032a37b38d">
+    <name>УдалитьПериодичностьРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить периодичность расчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4a7af4c1-7ea9-4d1e-a7ce-48dce4157b27">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f800253d-3b38-4bd3-aef4-feebe2552fc4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

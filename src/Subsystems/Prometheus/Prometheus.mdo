@@ -28,4 +28,5 @@
   <content>HTTPService.Prometheus</content>
   <content>Enum.пэмТипыМетрик</content>
   <content>Enum.пэмМетодыПолученияМетрик</content>
+  <content>Report.СостояниеМетрик</content>
 </mdclass:Subsystem>
