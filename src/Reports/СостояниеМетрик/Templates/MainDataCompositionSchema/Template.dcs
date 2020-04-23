@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Метрика</dataPath>
+			<field>Метрика</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРасчета</dataPath>
+			<field>ДатаРасчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Длительность</dataPath>
+			<field>Длительность</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	пэмСостояниеМетрик.Метрика,
+	пэмСостояниеМетрик.ДатаРасчета,
+	пэмСостояниеМетрик.Длительность
+ИЗ
+	РегистрСведений.пэмСостояниеМетрик КАК пэмСостояниеМетрик</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Метрика</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаРасчета</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Длительность</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:conditionalAppearance>
+					<dcsset:item>
+						<dcsset:selection>
+							<dcsset:item>
+								<dcsset:field>Длительность</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:filter/>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>Текст</dcscor:parameter>
+								<dcscor:value xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Длительнось, мсек</v8:content>
+									</v8:item>
+								</dcscor:value>
+							</dcscor:item>
+						</dcsset:appearance>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:selection/>
+						<dcsset:filter>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Длительность</dcsset:left>
+								<dcsset:comparisonType>Greater</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">1000</dcsset:right>
+							</dcsset:item>
+						</dcsset:filter>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>ЦветФона</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Color">#FFFF00</dcscor:value>
+							</dcscor:item>
+						</dcsset:appearance>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:selection>
+							<dcsset:item>
+								<dcsset:field>ДатаРасчета</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:filter/>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>Текст</dcscor:parameter>
+								<dcscor:value xsi:type="v8:LocalStringType">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Последняя дата расчета</v8:content>
+									</v8:item>
+								</dcscor:value>
+							</dcscor:item>
+						</dcsset:appearance>
+					</dcsset:item>
+				</dcsset:conditionalAppearance>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

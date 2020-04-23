@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67716fe7-f065-4317-b7fd-4a4a3a5ee8c7">
+  <producedTypes>
+    <objectType typeId="2b41b955-5bc5-4935-930a-f0ebe41669d5" valueTypeId="8370c280-d102-4ef7-ab57-7816d0b7e4db"/>
+    <managerType typeId="f41c1029-2cf6-4237-ba29-86896c6727a2" valueTypeId="3b4b9e66-8254-469f-b4a7-16392db5d618"/>
+  </producedTypes>
+  <name>СостояниеМетрик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние метрик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СостояниеМетрик.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <templates uuid="e69c8e4e-13f1-4aab-88c4-47c9a687a481">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>ru</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
