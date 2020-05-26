@@ -72,10 +72,10 @@
     </fillValue>
   </attributes>
   <attributes uuid="bf233752-b7a6-4417-a0a6-0a9174f2aefd">
-    <name>УдалитьМетодПолученияМетрики</name>
+    <name>МетодПолученияМетрики</name>
     <synonym>
       <key>ru</key>
-      <value>Удалить метод получения метрики</value>
+      <value>Метод получения метрики</value>
     </synonym>
     <comment></comment>
     <type>
@@ -128,22 +128,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6857a161-37f3-4316-915f-24032a37b38d">
-    <name>УдалитьПериодичностьРасчета</name>
+  <attributes uuid="8272860e-bcfb-4f75-bda3-a50fe270933d">
+    <name>ИдентификаторРегламента</name>
     <synonym>
       <key>ru</key>
-      <value>Удалить периодичность расчета</value>
+      <value>Идентификатор регламента</value>
     </synonym>
-    <comment></comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
     </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

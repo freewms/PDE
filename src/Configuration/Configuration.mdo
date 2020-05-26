@@ -49,6 +49,9 @@
   <roles>Role.пэмНастройкаМетрик</roles>
   <roles>Role.пэмПолучениеМетрик</roles>
   <commonModules>CommonModule.пэмМетрикиСервер</commonModules>
+  <commonModules>CommonModule.пэмМетрикиКлиент</commonModules>
+  <commonModules>CommonModule.пэмМетрикиСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.пэмМетрикиВызовСервера</commonModules>
   <httpServices>HTTPService.Prometheus</httpServices>
   <scheduledJobs>ScheduledJob.пэмВыполнитьРасчетМетрик</scheduledJobs>
   <commonCommands>CommonCommand.пэмНастройки</commonCommands>
