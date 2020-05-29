@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca4b13e-3850-11e9-9195-e4b97ae0aa74">
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229d0bab-5d16-4618-89f4-8b485ea3a634">
   <producedTypes>
-    <managerType typeId="aca4b12a-3850-11e9-9195-e4b97ae0aa74" valueTypeId="aca4b134-3850-11e9-9195-e4b97ae0aa74"/>
-    <valueManagerType typeId="aca4b135-3850-11e9-9195-e4b97ae0aa74" valueTypeId="aca4b136-3850-11e9-9195-e4b97ae0aa74"/>
-    <valueKeyType typeId="e4eb363f-8067-4050-bd4d-cd9dd7f5f42d" valueTypeId="64f67685-ac52-45d9-938f-04293ced4f69"/>
+    <managerType typeId="dbe296b9-a7ed-4476-9059-64434794cdf6" valueTypeId="fb5c155f-1af8-47a5-bfde-ece6a33c31d0"/>
+    <valueManagerType typeId="4f8f3f0d-c5c7-4cd2-a5ac-9e6029766538" valueTypeId="08d776bb-ae89-4ceb-8042-997b22e9b4af"/>
+    <valueKeyType typeId="cf116d58-8c87-4ca9-9a01-0b0dd57f274f" valueTypeId="e3c6ed73-d121-4ee9-b23e-8bd04a1b5952"/>
   </producedTypes>
   <name>пэмПутьНаСервереPushgateway</name>
   <synonym>
     <key>ru</key>
-    <value>Пэм путь на сервере pushgateway</value>
+    <value>Путь на сервере pushgateway</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
-  <minValue xsi:type="core:UndefinedValue"/>
-  <maxValue xsi:type="core:UndefinedValue"/>
-  <fillChecking>ShowError</fillChecking>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

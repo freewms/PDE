@@ -17,7 +17,6 @@
   <content>InformationRegister.пэмСостояниеМетрик</content>
   <content>Constant.пэмАдресСервераPushgateway</content>
   <content>Constant.пэмПортСервераPushgateway</content>
-  <content>Constant.пэмПутьНаСервереPushgateway</content>
   <content>Constant.пэмИспользоватьPushgateway</content>
   <content>Constant.пэмМногопоточныйРасчетМетрик</content>
   <content>CommonModule.пэмМетрикиСервер</content>

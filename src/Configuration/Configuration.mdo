@@ -46,6 +46,10 @@
   </languages>
   <subsystems>Subsystem.Prometheus</subsystems>
   <commonPictures>CommonPicture.пэмPrometheusLogo</commonPictures>
+  <commonPictures>CommonPicture.пэмPullGreen</commonPictures>
+  <commonPictures>CommonPicture.пэмPullRed</commonPictures>
+  <commonPictures>CommonPicture.пэмPushGreen</commonPictures>
+  <commonPictures>CommonPicture.пэмPushRed</commonPictures>
   <roles>Role.пэмНастройкаМетрик</roles>
   <roles>Role.пэмПолучениеМетрик</roles>
   <commonModules>CommonModule.пэмМетрикиСервер</commonModules>
@@ -57,9 +61,9 @@
   <commonCommands>CommonCommand.пэмНастройки</commonCommands>
   <constants>Constant.пэмАдресСервераPushgateway</constants>
   <constants>Constant.пэмПортСервераPushgateway</constants>
-  <constants>Constant.пэмПутьНаСервереPushgateway</constants>
   <constants>Constant.пэмИспользоватьPushgateway</constants>
   <constants>Constant.пэмМногопоточныйРасчетМетрик</constants>
+  <constants>Constant.пэмПутьНаСервереPushgateway</constants>
   <commonForms>CommonForm.пэмНастройкиМетрик</commonForms>
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>
