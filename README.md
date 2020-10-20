@@ -10,8 +10,7 @@
 
 ## Описание
 
-Идейная часть описана тут:
-[https://infostart.ru/public/811821/](https://infostart.ru/public/811821/)
+Статья на [Инфостарт](https://infostart.ru/public/811821/)
 
 ## Настройка
 
