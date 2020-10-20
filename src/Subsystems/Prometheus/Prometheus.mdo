@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Prometheus</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -28,4 +27,14 @@
   <content>Enum.пэмТипыМетрик</content>
   <content>Enum.пэмМетодыПолученияМетрик</content>
   <content>Report.СостояниеМетрик</content>
+  <content>Constant.пэмПутьНаСервереPushgateway</content>
+  <content>Constant.пэмПервоначальноеЗаполнениеВыполнено</content>
+  <content>CommonModule.пэмМетрикиКлиент</content>
+  <content>CommonModule.пэмМетрикиСерверПовтИсп</content>
+  <content>CommonModule.пэмМетрикиВызовСервера</content>
+  <content>ScheduledJob.пэмРегламентныеОперации</content>
+  <content>CommonPicture.пэмPullGreen</content>
+  <content>CommonPicture.пэмPullRed</content>
+  <content>CommonPicture.пэмPushGreen</content>
+  <content>CommonPicture.пэмPushRed</content>
 </mdclass:Subsystem>

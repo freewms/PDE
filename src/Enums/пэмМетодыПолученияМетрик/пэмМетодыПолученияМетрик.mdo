@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Методы получения метрик</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="12ffcb1d-d35f-46ba-a619-a246d55938a1">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Pull</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="ad9486cf-1c59-493e-bf74-5dff69e6d8ea">
     <name>Push</name>
@@ -27,6 +25,5 @@
       <key>ru</key>
       <value>Push</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

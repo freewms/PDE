@@ -2,6 +2,10 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>InformationRegister.пэмСостояниеМетрик.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Constant.пэмАдресСервераPushgateway.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -18,7 +22,11 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>InformationRegister.пэмСостояниеМетрик.StandardCommand.OpenList</command>
+      <command>Constant.пэмПутьНаСервереPushgateway.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.пэмПервоначальноеЗаполнениеВыполнено.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>

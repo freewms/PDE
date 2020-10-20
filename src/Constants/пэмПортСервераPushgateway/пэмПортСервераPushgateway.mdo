@@ -8,9 +8,8 @@
   <name>пэмПортСервераPushgateway</name>
   <synonym>
     <key>ru</key>
-    <value>Порт сервера pushgateway</value>
+    <value>PDE: Порт сервера pushgateway</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -19,7 +18,6 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <fillChecking>ShowError</fillChecking>

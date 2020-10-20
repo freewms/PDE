@@ -8,14 +8,12 @@
   <name>пэмМногопоточныйРасчетМетрик</name>
   <synonym>
     <key>ru</key>
-    <value>Многопоточный расчет для метрик &quot;по запросу&quot;</value>
+    <value>PDE: Разрешен многопоточный расчет метрик</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

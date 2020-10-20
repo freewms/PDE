@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbde36fe-ed6e-4f81-8b4f-efeb7b7ff916">
+  <name>пэмРегламентныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные операции Prometheus</value>
+  </synonym>
+  <methodName>CommonModule.пэмМетрикиСервер.РегламентныеОперации</methodName>
+  <description>Регламентные операции Prometheus</description>
+  <key>пэмМетрикиСервер.РегламентныеОперации</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

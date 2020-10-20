@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Метрики</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.пэмМетрики.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.пэмМетрики.StandardAttribute.Description</inputByString>
@@ -34,18 +33,16 @@
   <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
-    <items id="43a29708-3834-11e9-1991-e4b97ae0aa74">
-      <name>pde_metric_scrape_duration_millisecond</name>
-      <description></description>
+    <items id="7a23a7c0-3836-11e9-ef99-e4b97ae0aa74">
+      <name>pde_last_refresh</name>
       <code xsi:type="core:StringValue">
-        <value>pde_metric_scrape_duration_millisecond</value>
+        <value>pde_last_refresh</value>
       </code>
     </items>
-    <items id="7a23a7c0-3836-11e9-ef99-e4b97ae0aa74">
-      <name>pde_last_refresh_second</name>
-      <description></description>
+    <items id="b2dbc0ae-1f80-4ec2-8c06-1f331818312f">
+      <name>pde_scrape_duration</name>
       <code xsi:type="core:StringValue">
-        <value>pde_last_refresh_second</value>
+        <value>pde_scrape_duration</value>
       </code>
     </items>
   </predefined>
@@ -59,11 +56,9 @@
       <key>ru</key>
       <value>Тип метрики</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.пэмТипыМетрик</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -77,18 +72,15 @@
       <key>ru</key>
       <value>Метод получения метрики</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.пэмМетодыПолученияМетрик</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Enum.пэмМетодыПолученияМетрик.EnumValue.Pull</value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <indexing>Index</indexing>
   </attributes>
   <attributes uuid="bfac69a4-6099-45a7-b292-0915a1ad30e3">
     <name>Активность</name>
@@ -96,16 +88,12 @@
       <key>ru</key>
       <value>Активность</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b2fffa48-8744-4fed-8e9b-ef525e2e29e0">
     <name>Алгоритм</name>
@@ -113,20 +101,16 @@
       <key>ru</key>
       <value>Алгоритм</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8272860e-bcfb-4f75-bda3-a50fe270933d">
     <name>ИдентификаторРегламента</name>
@@ -135,13 +119,11 @@
       <value>Идентификатор регламента</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>36</length>
-      </stringQualifiers>
+      <types>UUID</types>
     </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <forms uuid="4a7af4c1-7ea9-4d1e-a7ce-48dce4157b27">
     <name>ФормаЭлемента</name>
@@ -149,7 +131,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>

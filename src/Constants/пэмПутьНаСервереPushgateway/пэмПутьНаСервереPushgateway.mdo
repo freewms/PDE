@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229d0bab-5d16-4618-89f4-8b485ea3a634">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229d0bab-5d16-4618-89f4-8b485ea3a634">
   <producedTypes>
     <managerType typeId="dbe296b9-a7ed-4476-9059-64434794cdf6" valueTypeId="fb5c155f-1af8-47a5-bfde-ece6a33c31d0"/>
     <valueManagerType typeId="4f8f3f0d-c5c7-4cd2-a5ac-9e6029766538" valueTypeId="08d776bb-ae89-4ceb-8042-997b22e9b4af"/>
@@ -8,12 +8,14 @@
   <name>пэмПутьНаСервереPushgateway</name>
   <synonym>
     <key>ru</key>
-    <value>Путь на сервере pushgateway</value>
+    <value>PDE: Путь на сервере pushgateway</value>
   </synonym>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

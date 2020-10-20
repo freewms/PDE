@@ -8,14 +8,12 @@
   <name>пэмИспользоватьPushgateway</name>
   <synonym>
     <key>ru</key>
-    <value>Использовать pushgateway</value>
+    <value>PDE: Разрешено использовать pushgateway</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

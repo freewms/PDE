@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="a9d42bf6-381e-11e9-8f96-e4b97ae0aa74">
-	<name>пэмНастройкаМетрик</name>
-	<synonym>
-		<key>ru</key>
-		<value>Пэм настройка метрик</value>
-	</synonym>
-	<comment></comment>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9d42bf6-381e-11e9-8f96-e4b97ae0aa74">
+  <name>пэмНастройкаМетрик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пэм настройка метрик</value>
+  </synonym>
 </mdclass:Role>

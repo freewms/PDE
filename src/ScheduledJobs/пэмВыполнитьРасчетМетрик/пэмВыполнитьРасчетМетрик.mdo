@@ -3,11 +3,10 @@
   <name>пэмВыполнитьРасчетМетрик</name>
   <synonym>
     <key>ru</key>
-    <value>Выполнить расчет метрик Prometheus</value>
+    <value>Расчет метрик Prometheus</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.пэмМетрикиСервер.СформироватьМетрикиРегламентнымЗаданием</methodName>
-  <description>Выполнить расчет метрик Prometheus</description>
+  <description>Расчет метрик Prometheus (Общий регламент)</description>
   <key>пэмМетрикиСерверСформироватьМетрикиРегламентнымЗаданием</key>
   <predefined>true</predefined>
 </mdclass:ScheduledJob>

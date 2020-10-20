@@ -5,21 +5,23 @@
     <key>ru</key>
     <value>Prometheus data exporter</value>
   </synonym>
-  <comment>Конфигурация для сбора и передачи метрик в систему мониторинга
-		&quot;Prometheus&quot;</comment>
+  <comment>Конфигурация для сбора и передачи метрик в систему мониторинга	&quot;Prometheus&quot;</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="aff252ca-c837-43f3-8d05-21893ea77e45"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="85108b77-fbcf-4b7c-91fd-e71fa48d560d"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3ed5151c-8a38-4884-a82c-e017b99f0d35"/>
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a0574a35-e82f-4ae2-91b3-c46d04e7e09f"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="abfbe3fc-eb3e-481e-8382-e07493de2da9"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6ca94286-0924-4968-a868-c8860bd11b17"/>
-  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://defbyte.ru</vendor>
-  <version>1.2.0</version>
-  <updateCatalogAddress></updateCatalogAddress>
+  <version>1.3.0</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <vendorInformationAddress>
     <key>ru</key>
@@ -34,14 +36,13 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.14</compatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="cfea9f0a-0bfe-4bcc-815a-4faf581f4ea6">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Prometheus</subsystems>
@@ -58,12 +59,14 @@
   <commonModules>CommonModule.пэмМетрикиВызовСервера</commonModules>
   <httpServices>HTTPService.Prometheus</httpServices>
   <scheduledJobs>ScheduledJob.пэмВыполнитьРасчетМетрик</scheduledJobs>
+  <scheduledJobs>ScheduledJob.пэмРегламентныеОперации</scheduledJobs>
   <commonCommands>CommonCommand.пэмНастройки</commonCommands>
   <constants>Constant.пэмАдресСервераPushgateway</constants>
   <constants>Constant.пэмПортСервераPushgateway</constants>
   <constants>Constant.пэмИспользоватьPushgateway</constants>
   <constants>Constant.пэмМногопоточныйРасчетМетрик</constants>
   <constants>Constant.пэмПутьНаСервереPushgateway</constants>
+  <constants>Constant.пэмПервоначальноеЗаполнениеВыполнено</constants>
   <commonForms>CommonForm.пэмНастройкиМетрик</commonForms>
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>

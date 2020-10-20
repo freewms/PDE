@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Phrometeus REST API</value>
   </synonym>
-  <comment></comment>
   <rootURL>prometheus</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
@@ -15,7 +14,6 @@
       <key>ru</key>
       <value>Polling</value>
     </synonym>
-    <comment></comment>
     <template>/polling</template>
     <methods uuid="8b5261cb-7701-4bee-bbc9-db50cd468144">
       <name>Get</name>
@@ -23,7 +21,6 @@
         <key>ru</key>
         <value>Get</value>
       </synonym>
-      <comment></comment>
       <handler>PollingGet</handler>
     </methods>
   </urlTemplates>

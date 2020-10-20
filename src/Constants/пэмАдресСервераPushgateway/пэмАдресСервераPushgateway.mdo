@@ -8,15 +8,13 @@
   <name>пэмАдресСервераPushgateway</name>
   <synonym>
     <key>ru</key>
-    <value>Адрес сервера pushgateway</value>
+    <value>PDE: Адрес сервера pushgateway</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <fillChecking>ShowError</fillChecking>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08775c68-af7b-4c9a-8925-0fbd38591ba9">
+  <producedTypes>
+    <managerType typeId="f79b7cfe-5829-4cbd-83d4-e85e8463f09c" valueTypeId="edacdd3c-bba5-4532-9142-b35e385825ec"/>
+    <valueManagerType typeId="6791d554-5c34-4b9e-b81a-b36165d64bcb" valueTypeId="6c08fcf7-4c01-4bce-8363-899320d2bb2e"/>
+    <valueKeyType typeId="8336b9d3-a5bf-4ac0-a639-c4a3c4940463" valueTypeId="7888997f-db68-4055-9e61-4d279aef3e43"/>
+  </producedTypes>
+  <name>пэмПервоначальноеЗаполнениеВыполнено</name>
+  <synonym>
+    <key>ru</key>
+    <value>PDE: Первоначальное заполнение выполнено</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

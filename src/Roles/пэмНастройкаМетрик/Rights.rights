@@ -28,11 +28,11 @@
 	<object>
 		<name>Catalog.пэмМетрики</name>
 		<right>
-			<name>Insert</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -48,19 +48,15 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -69,6 +65,10 @@
 		</right>
 		<right>
 			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -84,11 +84,11 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>ViewDataHistory</name>
+			<name>UpdateDataHistorySettings</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistorySettings</name>
+			<name>ViewDataHistory</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -111,6 +111,26 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
@@ -120,10 +140,24 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.Prometheus</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.пэмСостояниеМетрик.Dimension.Метрика</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.пэмНастройки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -151,6 +185,13 @@
 			<name>Update</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.пэмНастройкиМетрик</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -208,27 +249,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.Prometheus</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.пэмНастройкиМетрик</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.пэмНастройки</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
 		</right>
 	</object>
 </Rights>
