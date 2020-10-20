@@ -710,10 +710,6 @@
   </commandInterface>
   <extInfo xsi:type="form:ConstantsFormExtInfo">
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
       <event>OnWriteAtServer</event>
       <name>ПриЗаписиНаСервере</name>
     </handlers>
