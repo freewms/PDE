@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Prometheus data exporter</value>
   </synonym>
-  <comment>Конфигурация для сбора и передачи метрик в систему мониторинга	&quot;Prometheus&quot;</comment>
+  <comment>Конфигурация для сбора и передачи метрик в систему мониторинга &quot;Prometheus&quot;</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="aff252ca-c837-43f3-8d05-21893ea77e45"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="85108b77-fbcf-4b7c-91fd-e71fa48d560d"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3ed5151c-8a38-4884-a82c-e017b99f0d35"/>
@@ -36,7 +36,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.16</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="cfea9f0a-0bfe-4bcc-815a-4faf581f4ea6">
     <name>Русский</name>
     <synonym>
@@ -71,6 +71,6 @@
   <catalogs>Catalog.пэмМетрики</catalogs>
   <enums>Enum.пэмТипыМетрик</enums>
   <enums>Enum.пэмМетодыПолученияМетрик</enums>
-  <reports>Report.СостояниеМетрик</reports>
+  <reports>Report.пэмСостояниеМетрик</reports>
   <informationRegisters>InformationRegister.пэмСостояниеМетрик</informationRegisters>
 </mdclass:Configuration>

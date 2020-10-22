@@ -26,7 +26,7 @@
   <content>HTTPService.Prometheus</content>
   <content>Enum.пэмТипыМетрик</content>
   <content>Enum.пэмМетодыПолученияМетрик</content>
-  <content>Report.СостояниеМетрик</content>
+  <content>Report.пэмСостояниеМетрик</content>
   <content>Constant.пэмПутьНаСервереPushgateway</content>
   <content>Constant.пэмПервоначальноеЗаполнениеВыполнено</content>
   <content>CommonModule.пэмМетрикиКлиент</content>
