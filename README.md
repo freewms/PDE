@@ -5,6 +5,7 @@
 [![Security Rating](https://sonar.openbsl.ru/api/project_badges/measure?project=PDE&metric=security_rating)](https://sonar.openbsl.ru/dashboard?id=PDE)
 [![Stars](https://img.shields.io/github/stars/freewms/PDE.svg?label=Github%20%E2%98%85&a)](https://github.com/freewms/PDE/stargazers)
 [![Release](https://img.shields.io/github/tag/freewms/PDE.svg?label=Last%20release&a)](https://github.com/freewms/PDE/releases)
+[![Downloads](https://img.shields.io/github/downloads/freewms/PDE/total)](https://github.com/freewms/PDE/releases)
 
 Встраиваемая конфигурация на платформе "1С:Предприятия" для сбора и передачи метрик в систему мониторинга "Prometheus"
 
